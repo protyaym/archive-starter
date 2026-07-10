@@ -75,6 +75,39 @@ touching the map code at all, only adding `mv_naxalbari` and linking
   Sen's *Agrarian Struggle in Bengal 1946–47* is the standard secondary
   source for Tebhaga specifically.
 
+## Entity pages and editing
+
+**Every entity now has a shareable page.** `entity.html?id=mv_tebhaga` renders
+the full record on its own URL -- title, dates, full entry, sources, and
+clickable links to every related entity. The inline card in the map/timeline
+explorer is still the quick-preview version for browsing (it deliberately
+doesn't link relationships away, so exploring the map doesn't keep bouncing
+you to other pages); each card now has a "View full page" link at the bottom
+that opens the permalink version. Loading logic, colors, and the
+relationship/source rendering are shared between both in `js/data.js` --
+`app.js` (the explorer) and `js/entity.js` (the permalink page) both call
+into it, so there's exactly one place that knows how to read the data.
+
+**Editing right now means editing the JSON files directly** in VS Code --
+that's not a placeholder step, it's the actual workflow for a solo maintainer.
+To change something: open the relevant file in `data/`, edit the field, save.
+To add a new entity: copy the shape of an existing one in the same file, give
+it a new unique `id`, fill it in. To link two entities, add a `relationships`
+entry with a `type` and a `target` matching another entity's exact `id`.
+
+**Before you commit, run the validator:**
+
+```
+node scripts/validate.js
+```
+
+It checks every file for the mistakes that are easy to make by hand: duplicate
+ids, a relationship pointing at an id that doesn't exist (typo an id and this
+catches it), bad coordinates, and missing fields. Warnings (like a missing
+source) don't block you -- they're judgment calls -- but errors do, and the
+script exits non-zero so you'll notice if you ever wire it into anything
+automated later. Get in the habit of running it right before every commit.
+
 ## Next steps, roughly in order
 
 1. **Verify and tighten the Tebhaga/Nachole data.** Every `editor_note` in
@@ -89,11 +122,14 @@ touching the map code at all, only adding `mv_naxalbari` and linking
    post-1947 layer are both queryable from the same free source. This is the
    piece that makes the pre/post-1947 boundary redraw you wanted actually
    possible without hand-tracing historical maps yourself.
-4. **When you have more than one or two contributors**, hand-editing JSON
-   stops being reasonable for non-coders. [Decap CMS](https://decapcms.org/)
-   (formerly Netlify CMS) is free, open source, and self-hosted — it gives
-   contributors a form-based editor that writes back to the same JSON/Markdown
-   files in the GitHub repo, no separate database or paid CMS seat involved.
+4. **When you have more than one or two contributors who shouldn't have to
+   touch JSON or git**, [Decap CMS](https://decapcms.org/) (formerly Netlify
+   CMS) is free, open source, and self-hosted -- it gives contributors a
+   form-based editor that writes back to the same JSON files in the GitHub
+   repo, no separate database or paid CMS seat involved. It needs a bit more
+   setup (an admin page, an OAuth connection to GitHub) than anything so far,
+   so it's worth doing only once hand-editing JSON is actually the bottleneck
+   -- not before.
 5. **Then build Partition.** By that point the `contested` flag, the
    editor-note pattern, and the multi-source citation habit will already be
    proven on Tebhaga/Nachole — which is lower-stakes ground to work the bugs

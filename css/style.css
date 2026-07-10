@@ -305,7 +305,86 @@ body {
 
 .sources a { color: var(--gold-deep); }
 
-.leaflet-popup-content { font-family: var(--font-body); font-size: 12px; }
+.card .permalink {
+  display: block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--gold-deep);
+  text-decoration: none;
+}
+
+.card .permalink:hover { text-decoration: underline; }
+
+.home-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.entry-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+
+.entry-header h2 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  margin: 10px 0 6px;
+}
+
+.entry-header .meta {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+
+.entry-summary {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  border-left: 2px solid var(--gold);
+  padding-left: 16px;
+  margin: 20px 0;
+}
+
+.entry-body {
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.entry-page h3 {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin: 32px 0 10px;
+  border-top: 1px dashed var(--line);
+  padding-top: 20px;
+}
+
+.entry-rel-list, .entry-sources { font-size: 14px; }
+.entry-rel-list li { margin-bottom: 6px; }
+.entry-rel-list a { color: var(--gold-deep); }
+
+.editor-note {
+  font-size: 13px;
+  color: var(--oxide);
+  background: rgba(163, 59, 46, 0.08);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin: 16px 0;
+}
+
+.back-link, .not-found a {
+  display: inline-block;
+  margin-top: 32px;
+  font-size: 13px;
+  color: var(--gold-deep);
+  text-decoration: none;
+}
+
+.back-link:hover, .not-found a:hover { text-decoration: underline; }
 
 /* ---- Mobile: the ledger sidebar becomes a row of dropdown filters above the map ---- */
 @media (max-width: 720px) {

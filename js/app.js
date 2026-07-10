@@ -1,44 +1,9 @@
-// This file deliberately has no build step and no framework -- open it directly
-// and read top to bottom. Every entity type is fetched, merged into one lookup
-// table by id. Map and Timeline are two different renderers pointed at the
-// same filtered entity list -- that's the whole "one dataset, many views" idea.
+// The map/timeline explorer. Entity loading, colors, and the relationship/source
+// rendering helpers now live in js/data.js (shared with entity.html) -- this
+// file only handles the map, the timeline, the card overlay, and filters.
 
-const DATA_FILES = [
-  "data/movements.json",
-  "data/events.json",
-  "data/people.json",
-  "data/organizations.json",
-  "data/texts.json",
-  "data/places.json",
-];
-
-let allEntities = {};   // id -> entity, across every type
 let map, markerLayer;
 let timelineRange = { min: 1900, max: 2020 }; // recomputed from data once loaded
-
-async function loadData() {
-  const files = await Promise.all(DATA_FILES.map((f) => fetch(f).then((r) => r.json())));
-  files.flat().forEach((entity) => { allEntities[entity.id] = entity; });
-}
-
-// Decimal year (e.g. 1946.75) so month-level dates place sensibly on the timeline
-// and so two events in the same year don't automatically collide.
-function entityDecimalYear(entity) {
-  const raw = (entity.period && entity.period.start) || entity.date;
-  if (!raw) return null;
-  const parts = raw.split("-");
-  const year = parseInt(parts[0], 10);
-  const month = parts[1] ? parseInt(parts[1], 10) : 1;
-  const day = parts[2] ? parseInt(parts[2], 10) : 1;
-  if (Number.isNaN(year)) return null;
-  return year + (month - 1) / 12 + (day - 1) / 365;
-}
-
-function markerColor(entity) {
-  if (entity.contested) return "#A33B2E"; // oxide -- flags contested content at a glance
-  if (entity.type === "movement") return "#C99A3E"; // gold
-  return "#5B6B4F"; // leaf, for events
-}
 
 // Shared by both the map and the timeline, so filters behave identically in both views.
 function getVisibleEntities() {
@@ -65,37 +30,26 @@ function getVisibleEntities() {
   });
 }
 
-function relationshipLabel(rel) {
-  const target = allEntities[rel.target];
-  const name = target ? (target.title || target.name) : rel.target;
-  return `<li><strong>${rel.type.replace(/_/g, " ")}</strong> — ${name}</li>`;
-}
-
+// The inline card: a quick preview while exploring, deliberately kept lighter
+// than the full entity.html page -- it does not link relationships away, so
+// browsing the map doesn't accidentally navigate you off it.
 function openCard(entity) {
   const card = document.getElementById("card");
-  const tags = [`<span class="tag type-${entity.type}">${entity.type}</span>`];
-  if (entity.contested) tags.push(`<span class="tag contested">contested / verify sources</span>`);
-
-  const rels = (entity.relationships || []).map(relationshipLabel).join("");
-  const sources = (entity.sources || [])
-    .map((s) => `<div>&middot; <a href="${s.url}" target="_blank" rel="noopener">${s.citation}</a> (${s.type})</div>`)
-    .join("") || "<div>No sources logged yet -- do not treat as verified.</div>";
-
-  const dateLabel = entity.date || (entity.period ? `${entity.period.start} – ${entity.period.end}` : "");
 
   card.innerHTML = `
     <span class="catalog-id">${entity.id}</span>
-    <h3>${entity.title || entity.name}</h3>
-    <div class="meta">${dateLabel}${entity.place ? " · " + entity.place.name : ""}</div>
-    <div>${tags.join("")}</div>
+    <h3>${entityName(entity)}</h3>
+    <div class="meta">${entityDateLabel(entity)}${entity.place ? " · " + entity.place.name : ""}</div>
+    <div>${tagsHtml(entity)}</div>
     <p>${entity.summary_card}</p>
     <button id="toggle-entry">Open full entry</button>
     <button id="close-card">Close</button>
     <div class="full-entry" id="full-entry-body">
       <p>${entity.full_entry || "Full entry not written yet."}</p>
-      <ul class="rel-list">${rels}</ul>
-      <div class="sources">${sources}</div>
+      <ul class="rel-list">${relationshipsHtml(entity, false)}</ul>
+      <div class="sources">${sourcesHtml(entity)}</div>
       ${entity.editor_note ? `<p style="color:#A33B2E"><em>Editor note: ${entity.editor_note}</em></p>` : ""}
+      <a class="permalink" href="entity.html?id=${encodeURIComponent(entity.id)}">View full page &rarr;</a>
     </div>
   `;
   card.classList.add("open");
@@ -191,7 +145,6 @@ function renderTimeline() {
 
   const xForYear = (year) => 40 + ((year - min) / span) * usableWidth;
 
-  // axis line
   const axisLine = document.createElement("div");
   axisLine.className = "tl-axis-line";
   axisLine.style.left = "40px";
@@ -199,7 +152,6 @@ function renderTimeline() {
   axisLine.style.right = "auto";
   container.appendChild(axisLine);
 
-  // tick marks every few years, spaced out more if the range is wide
   const tickStep = span > 60 ? 10 : span > 20 ? 5 : 2;
   for (let y = Math.ceil(min / tickStep) * tickStep; y <= max; y += tickStep) {
     const x = xForYear(y);
@@ -227,8 +179,6 @@ function renderTimeline() {
   laneLabelBottom.textContent = "Events";
   container.appendChild(laneLabelBottom);
 
-  // Simple collision avoidance: within each lane, if a dot would land within
-  // minGapPx of the previous one, stack it one row further from the axis.
   const minGapPx = 16;
   const lanes = { movement: [], event: [] };
 
@@ -272,7 +222,6 @@ function switchView(view) {
   document.getElementById("timeline").style.display = view === "timeline" ? "block" : "none";
 
   if (view === "map") {
-    // Leaflet renders incorrectly if it was hidden while its size changed; this fixes it.
     setTimeout(() => map.invalidateSize(), 0);
     renderMarkers();
   } else {
