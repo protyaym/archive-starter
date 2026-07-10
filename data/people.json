@@ -1,0 +1,68 @@
+[
+  {
+    "id": "pe_konar",
+    "type": "person",
+    "name": "Hare Krishna Konar",
+    "role": "Kisan Sabha and Communist Party organizer",
+    "summary_card": "Kisan Sabha leader during Tebhaga who later held land-reform responsibility in West Bengal's Left Front-era governments.",
+    "full_entry": "One of the Kisan Sabha's key organizers during the Tebhaga movement. Later associated with land-reform policy in West Bengal's United Front and Left Front governments of the late 1960s and after.",
+    "relationships": [
+      { "type": "member_of", "target": "org_bpks" },
+      { "type": "led", "target": "mv_tebhaga" }
+    ],
+    "sources": [
+      { "citation": "Tebhaga Movement, Causes, Features, Impacts, Vajiram & Ravi", "type": "tertiary", "url": "https://vajiramandravi.com/upsc-exam/tebhaga-movement/" }
+    ],
+    "editor_note": "Ministerial title and dates need verification against a primary or academic source before publishing -- not confirmed to the standard the rest of this record needs."
+  },
+  {
+    "id": "pe_choudhury",
+    "type": "person",
+    "name": "Benoy Choudhury",
+    "role": "Kisan Sabha and Communist Party organizer",
+    "summary_card": "Kisan Sabha leader during Tebhaga, later associated with land-reform administration in West Bengal.",
+    "full_entry": "Named among the Tebhaga movement's Communist Party leadership. Later associated with land-reform administration in West Bengal under Left Front governments.",
+    "relationships": [
+      { "type": "member_of", "target": "org_bpks" },
+      { "type": "led", "target": "mv_tebhaga" }
+    ],
+    "sources": [
+      { "citation": "Tebhaga Movement, Causes, Features, Impacts, Vajiram & Ravi", "type": "tertiary", "url": "https://vajiramandravi.com/upsc-exam/tebhaga-movement/" }
+    ],
+    "editor_note": "Same caveat as Hare Krishna Konar -- verify before publishing."
+  },
+  {
+    "id": "pe_majumdar",
+    "type": "person",
+    "name": "Charu Majumdar",
+    "role": "Kisan Sabha organizer, Dinajpur and Jalpaiguri",
+    "summary_card": "Organized Tebhaga struggles in Dinajpur and Jalpaiguri -- two decades before founding the party that led the 1967 Naxalbari uprising.",
+    "full_entry": "Led Tebhaga-era peasant organizing in Dinajpur and Jalpaiguri districts. This entity deliberately does not yet describe his later role founding CPI(ML) and leading the 1967 Naxalbari uprising -- that belongs to a separate, later movement entity once it's built, linked back here with a 'preceded_by' or 'earlier_role' relationship. Leaving the forward link empty for now is intentional: it shows how the schema is meant to grow rather than trying to write the whole timeline into one entity.",
+    "relationships": [
+      { "type": "member_of", "target": "org_bpks" },
+      { "type": "led", "target": "mv_tebhaga" }
+    ],
+    "sources": [
+      { "citation": "Remembering Ila Mitra, Nacholer Rani, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394458/remembering-ila-mitra-nacholer-rani" }
+    ]
+  },
+  {
+    "id": "pe_ila_mitra",
+    "type": "person",
+    "name": "Ila Mitra",
+    "role": "Peasant and Santal movement leader",
+    "lifespan": "1925-2002",
+    "summary_card": "Led the Santal and sharecropper uprising around Nachole; arrested and tortured in 1950 for it, later paroled on health grounds.",
+    "full_entry": "Born Ila Sen in Kolkata in 1925, she was selected for the 1940 Olympics as an athlete before the Games were cancelled by the war. After her 1945 marriage to Ramendra Mitra, she settled in Chapainawabganj and became a teacher and organizer among the local Santal and peasant community, who called her Rani Ma (queen mother). She led the tebhaga-era organizing that culminated in the January 1950 Nachole uprising. Arrested while fleeing after the Kendua clash, she was held at Nachole police station where she was tortured, including sexual assault -- documented consistently across the sources checked for this entry -- before being moved to Rajshahi Central Jail. Convicted on charges related to the uprising, she was sentenced to life imprisonment and paroled in 1954 due to ill health, going to Kolkata for treatment.",
+    "relationships": [
+      { "type": "led", "target": "mv_nachole" },
+      { "type": "involved_in", "target": "ev_nachole_clash" }
+    ],
+    "sources": [
+      { "citation": "Ila Mitra, Wikipedia", "type": "tertiary", "url": "https://en.wikipedia.org/wiki/Ila_Mitra" },
+      { "citation": "Mitra, Ila, Banglapedia", "type": "secondary", "url": "https://en.banglapedia.org/index.php/Mitra,_Ila" },
+      { "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star", "type": "secondary", "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866" }
+    ],
+    "contested": false
+  }
+]

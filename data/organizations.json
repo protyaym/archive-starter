@@ -1,0 +1,42 @@
+[
+  {
+    "id": "org_cpi_undivided",
+    "type": "organization",
+    "name": "Communist Party of India (undivided)",
+    "founded": "1925",
+    "summary_card": "The undivided CPI, active in Bengal's agrarian organizing through its peasant front, the Kisan Sabha.",
+    "full_entry": "Refers here to the Communist Party of India prior to its 1964 split into the CPI and CPI(M) -- a separate entity to build later, linked back to this one with a 'split_from' relationship.",
+    "relationships": [
+      { "type": "parent_of", "target": "org_aiks" }
+    ],
+    "sources": [],
+    "editor_note": "Founding date and location (Tashkent 1920 vs Kanpur 1925) are described differently across sources -- resolve this with a dedicated, well-sourced entity before publishing rather than guessing here."
+  },
+  {
+    "id": "org_aiks",
+    "type": "organization",
+    "name": "All India Kisan Sabha",
+    "founded": "1936",
+    "summary_card": "The undivided CPI's national peasant front; the Bengal Provincial Kisan Sabha was its provincial wing.",
+    "full_entry": "Founded in 1936 as the national peasant organization associated with the undivided Communist Party of India.",
+    "relationships": [
+      { "type": "part_of", "target": "org_cpi_undivided" },
+      { "type": "parent_of", "target": "org_bpks" }
+    ],
+    "sources": []
+  },
+  {
+    "id": "org_bpks",
+    "type": "organization",
+    "name": "Bengal Provincial Kisan Sabha (Bangiya Pradeshik Kisan Sabha)",
+    "summary_card": "The Bengal wing of the Kisan Sabha that organized and led the Tebhaga movement.",
+    "full_entry": "The Bengal provincial wing of the All India Kisan Sabha. Passed the September 1946 resolution that launched the Tebhaga movement.",
+    "relationships": [
+      { "type": "part_of", "target": "org_aiks" },
+      { "type": "organized", "target": "mv_tebhaga" }
+    ],
+    "sources": [
+      { "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute", "type": "secondary", "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/" }
+    ]
+  }
+]

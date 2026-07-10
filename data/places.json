@@ -1,0 +1,29 @@
+[
+  {
+    "id": "pl_dinajpur",
+    "type": "place",
+    "name": "Dinajpur",
+    "coordinates": [25.63, 88.64],
+    "admin_pre1947": "District, Bengal Presidency, British India",
+    "admin_post1947": "Split by Partition -- Dinajpur District, Bangladesh, and Uttar/Dakshin Dinajpur, West Bengal, India",
+    "note": "Where the Tebhaga movement's first direct actions began, in the Thakurgaon subdivision."
+  },
+  {
+    "id": "pl_kakdwip",
+    "type": "place",
+    "name": "Kakdwip",
+    "coordinates": [21.93, 88.19],
+    "admin_pre1947": "South 24-Parganas, Bengal Presidency, British India",
+    "admin_post1947": "South 24 Parganas district, West Bengal, India",
+    "note": "One of the movement's southern storm centres, along with Namkhana."
+  },
+  {
+    "id": "pl_nachole",
+    "type": "place",
+    "name": "Nachole",
+    "coordinates": [24.78, 88.36],
+    "admin_pre1947": "Rajshahi District, Bengal Presidency, British India",
+    "admin_post1947": "Nachole Upazila, Chapainawabganj District, East Bengal/Pakistan (1947-71), then Bangladesh",
+    "note": "Site of the January 1950 uprising led by Ila Mitra, the Tebhaga movement's continuation after Partition."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mv_tebhaga",
+    "type": "movement",
+    "title": "Tebhaga movement",
+    "period": { "start": "1946-09", "end": "1947", "era": "Late British India / Partition" },
+    "place": {
+      "name": "Bengal (undivided)",
+      "note": "Spread across roughly 19 districts of undivided Bengal, most intensely in Dinajpur, Rangpur, Jalpaiguri, Khulna, Mymensingh, Jessore and the 24-Parganas.",
+      "coordinates": [25.63, 88.64]
+    },
+    "summary_card": "Bengal sharecroppers refused to hand landlords half their harvest, demanding two-thirds instead, and for a time took control of the threshing floor from Dinajpur to the Sundarbans.",
+    "full_entry": "Under Bengal's sharecropping system, bargadars (sharecroppers) who worked land owned by jotedars (landholders) were required to hand over half their harvest as rent. In 1938-40, the Bengal Land Revenue Commission (the Floud Commission) recommended reducing that share to one-third, but the Bengal government did not act on it. In September 1946, the Bengal Provincial Kisan Sabha (BPKS), the peasant wing of the then-undivided Communist Party of India, called for a mass movement to enforce the tebhaga (three-shares) demand from the coming aman harvest: 'adhi noy, tebhaga chai' (we want two-thirds, not half). The movement is generally traced to the Thakurgaon subdivision of Dinajpur, where sharecroppers began carrying harvested paddy to their own threshing floors rather than the landlord's godown, denying jotedars the ability to control the division. The tactic spread rapidly; landlords in some areas fled and the Kisan Sabha effectively controlled the countryside. Reports from the period describe over a thousand arrests between September and December 1946 alone. In early 1947, Bengal's Suhrawardy government introduced the State Acquisition and Tenancy Bill and the Bengal Bargadars (Provisional) Bill to legislate something close to the tebhaga demand, but Partition intervened before either could be enacted. After Partition, the movement continued on both sides of the new border under very different conditions -- see the linked Nachole uprising for its continuation in East Bengal (Pakistan). Some historians describe the movement's immediate demands as largely unmet outside particular pockets, since legislative follow-through was overtaken by Partition; others emphasize the durable organizing legacy it left for later land-reform politics in West Bengal.",
+    "tags": ["peasant movement", "land reform", "Bengal", "undivided India", "Kisan Sabha"],
+    "relationships": [
+      { "type": "organized_by", "target": "org_bpks" },
+      { "type": "led_by", "target": "pe_konar" },
+      { "type": "led_by", "target": "pe_choudhury" },
+      { "type": "led_by", "target": "pe_majumdar" },
+      { "type": "occurred_in", "target": "pl_dinajpur" },
+      { "type": "occurred_in", "target": "pl_kakdwip" },
+      { "type": "continued_by", "target": "mv_nachole" }
+    ],
+    "sources": [
+      { "citation": "Tebhaga movement, Wikipedia", "type": "tertiary", "url": "https://en.wikipedia.org/wiki/Tebhaga_movement" },
+      { "citation": "The history of the Tebhaga Movement, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement" },
+      { "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute", "type": "secondary", "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/" },
+      { "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File", "type": "secondary", "url": "https://www.labourfile.com/section-detail.php?aid=761" }
+    ],
+    "contested": false,
+    "editor_note": "Core facts cross-checked across multiple sources for this scaffold, but treat this as a first draft. Before publishing, verify against Sunil Sen's 'Agrarian Struggle in Bengal 1946-47' (People's Publishing House) and academic secondary literature rather than the web summaries alone -- exam-prep aggregator sites were used to fill some gaps here and are convenient but not authoritative."
+  },
+  {
+    "id": "mv_nachole",
+    "type": "movement",
+    "title": "Nachole uprising",
+    "period": { "start": "1949-12", "end": "1950-01", "era": "Post-Partition, East Bengal (Pakistan)" },
+    "place": {
+      "name": "Nachole, Chapainawabganj (then East Bengal, Pakistan; now Bangladesh)",
+      "coordinates": [24.78, 88.36]
+    },
+    "summary_card": "In East Pakistan, Santal peasants and sharecroppers around Nachole carried the tebhaga demand forward until a police crackdown in January 1950 crushed the uprising and its leader, Ila Mitra, was arrested and tortured.",
+    "full_entry": "After Partition split Bengal, the tebhaga struggle continued in East Bengal (Pakistan) under harsher conditions, concentrated around Nachole in Rajshahi district (now Chapainawabganj, Bangladesh) where the peasantry was largely Santal. Organized with Communist Party support and led locally by Ila Mitra, the movement pressed jotedars to accept the two-thirds share. On 5 January 1950, a police patrol clashed with a Santal peasant group at Kendua; accounts describe several police personnel killed. The state responded with a large deployment of police and paramilitary Ansar forces, and, by some accounts, the burning of a number of villages in the area. Ila Mitra was arrested while attempting to flee, held at Nachole police station, and -- this is well documented across multiple sources -- subjected to severe torture including sexual assault before being moved to Rajshahi Central Jail. She was convicted on charges related to the uprising and sentenced to life imprisonment; ill health from the torture led to her parole in 1954. Casualty figures for the uprising itself vary significantly by source and are not settled here -- flag this in the full site rather than picking a single number.",
+    "tags": ["peasant movement", "Santal", "East Bengal", "Pakistan", "state violence"],
+    "relationships": [
+      { "type": "continuation_of", "target": "mv_tebhaga" },
+      { "type": "led_by", "target": "pe_ila_mitra" },
+      { "type": "occurred_in", "target": "pl_nachole" }
+    ],
+    "sources": [
+      { "citation": "Nachole Uprising, Wikipedia", "type": "tertiary", "url": "https://en.wikipedia.org/wiki/Nachole_Uprising" },
+      { "citation": "Mitra, Ila, Banglapedia", "type": "secondary", "url": "https://en.banglapedia.org/index.php/Mitra,_Ila" },
+      { "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star", "type": "secondary", "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866" }
+    ],
+    "contested": true,
+    "editor_note": "Casualty and village-burning figures differ across the sources checked for this scaffold -- treat as unverified pending a proper multi-source comparison before publishing."
+  }
+]

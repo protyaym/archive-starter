@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tx_floud_report",
+    "type": "text",
+    "title": "Bengal Land Revenue Commission Report (Floud Commission)",
+    "date": "1940",
+    "source_class": "primary",
+    "summary_card": "Government commission report recommending sharecroppers' share rise from one-half to two-thirds.",
+    "relationships": [
+      { "type": "related_event", "target": "ev_floud_commission" }
+    ],
+    "sources": [
+      { "citation": "Tebhaga Movement (1946-1947), IAS Site", "type": "secondary", "url": "https://www.iassite.com/tebhaga-movement-1946-1947-upsc/" }
+    ],
+    "editor_note": "Locate and link a digitized or archival copy of the actual report before publishing -- currently only described secondhand."
+  },
+  {
+    "id": "tx_sen_agrarian_struggle",
+    "type": "text",
+    "title": "Agrarian Struggle in Bengal 1946-47",
+    "author": "Sunil Sen",
+    "source_class": "secondary",
+    "summary_card": "Widely cited academic account of the Tebhaga movement, commonly treated as a foundational secondary source.",
+    "relationships": [
+      { "type": "related_movement", "target": "mv_tebhaga" }
+    ],
+    "sources": [],
+    "editor_note": "Publisher/edition details (commonly cited as People's Publishing House) not independently verified in this scaffold -- confirm before citing it as a source elsewhere on the site."
+  }
+]

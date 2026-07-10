@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ev_floud_commission",
+    "type": "event",
+    "title": "Floud Commission recommends the tebhaga share",
+    "date": "1940",
+    "place": { "name": "Bengal", "coordinates": [23.7, 89.0] },
+    "summary_card": "The Bengal Land Revenue Commission recommends sharecroppers keep two-thirds of the crop instead of half -- a demand the government did not act on for six years.",
+    "full_entry": "Appointed in 1938 to review Bengal's agrarian system, the Bengal Land Revenue Commission (popularly the Floud Commission) reported that sharecroppers should be treated as protected tenants and that their legally recoverable share should fall from half to one-third for the landlord, i.e. two-thirds for the cultivator. The government of the day did not implement the recommendation, but it gave the Kisan Sabha's later demand the weight of an official finding.",
+    "relationships": [
+      { "type": "precedes", "target": "ev_bpks_call" },
+      { "type": "part_of", "target": "mv_tebhaga" },
+      { "type": "related_text", "target": "tx_floud_report" }
+    ],
+    "sources": [
+      { "citation": "Tebhaga Movement (1946-1947), IAS Site", "type": "secondary", "url": "https://www.iassite.com/tebhaga-movement-1946-1947-upsc/" }
+    ],
+    "contested": false
+  },
+  {
+    "id": "ev_bpks_call",
+    "type": "event",
+    "title": "Bengal Provincial Kisan Sabha calls for tebhaga",
+    "date": "1946-09",
+    "place": { "name": "Bengal", "coordinates": [23.7, 89.0] },
+    "summary_card": "The Kisan Sabha formally decides to launch the tebhaga struggle from the next harvest.",
+    "full_entry": "In September 1946, the Bengal Provincial Kisan Sabha (BPKS) resolved to launch a mass struggle to enforce the tebhaga demand starting with that season's aman (winter) harvest, against the backdrop of communal riots elsewhere in Bengal. The call built on an earlier, war- and famine-delayed resolution from a 1940 Kisan Sabha conference.",
+    "relationships": [
+      { "type": "part_of", "target": "mv_tebhaga" },
+      { "type": "organized_by", "target": "org_bpks" },
+      { "type": "precedes", "target": "ev_dinajpur_outbreak" }
+    ],
+    "sources": [
+      { "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute", "type": "secondary", "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/" }
+    ],
+    "contested": false
+  },
+  {
+    "id": "ev_dinajpur_outbreak",
+    "type": "event",
+    "title": "Movement breaks out in Dinajpur",
+    "date": "1946-11",
+    "place": { "name": "Thakurgaon subdivision, Dinajpur", "coordinates": [25.63, 88.64] },
+    "summary_card": "Sharecroppers in Dinajpur begin carrying harvested paddy to their own threshing floors instead of the landlord's godown, sparking the movement's first clashes.",
+    "full_entry": "The first direct action is generally traced to Atwari village in northwest Dinajpur, where bargadar volunteers harvested their fields and carried the grain to their own khamar rather than the jotedar's storehouse. Landlords responded with hired enforcers and police; violent clashes followed, Kisan Sabha organizers were arrested, and the movement spread outward to an estimated 19 districts of undivided Bengal.",
+    "relationships": [
+      { "type": "part_of", "target": "mv_tebhaga" },
+      { "type": "occurred_in", "target": "pl_dinajpur" }
+    ],
+    "sources": [
+      { "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File", "type": "secondary", "url": "https://www.labourfile.com/section-detail.php?aid=761" }
+    ],
+    "contested": false
+  },
+  {
+    "id": "ev_1947_bills",
+    "type": "event",
+    "title": "Bargadar bills introduced, then overtaken by Partition",
+    "date": "1947-01",
+    "place": { "name": "Bengal Legislative Assembly, Calcutta", "coordinates": [22.57, 88.36] },
+    "summary_card": "The Suhrawardy government introduces bills to legislate the tebhaga demand, but Partition intervenes before either becomes law.",
+    "full_entry": "In response to the movement, Huseyn Shaheed Suhrawardy's Bengal government introduced the State Acquisition and Tenancy Bill and the Bengal Bargadars (Provisional) Bill in early 1947, aiming to abolish the Permanent Settlement and improve sharecroppers' legal position. Neither was enacted before Partition split the province and its legislature.",
+    "relationships": [
+      { "type": "part_of", "target": "mv_tebhaga" },
+      { "type": "precedes", "target": "ev_east_bengal_act" }
+    ],
+    "sources": [
+      { "citation": "The history of the Tebhaga Movement, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement" }
+    ],
+    "contested": false
+  },
+  {
+    "id": "ev_nachole_clash",
+    "type": "event",
+    "title": "Police clash at Kendua, Nachole",
+    "date": "1950-01-05",
+    "place": { "name": "Kendua, Nachole", "coordinates": [24.78, 88.36] },
+    "summary_card": "A patrol clashes with Santal peasants; the state responds with a large police and paramilitary deployment.",
+    "full_entry": "On 5 January 1950 a police patrol in Kendua, near Nachole, clashed with a group of Santal peasants; accounts describe several police personnel killed in the confrontation. The government deployed a large force of police and Ansar paramilitary in response, and multiple villages in the area reportedly came under attack in the aftermath. Ila Mitra was arrested in the days that followed. Casualty figures on both sides vary by source.",
+    "relationships": [
+      { "type": "part_of", "target": "mv_nachole" },
+      { "type": "occurred_in", "target": "pl_nachole" },
+      { "type": "involves", "target": "pe_ila_mitra" }
+    ],
+    "sources": [
+      { "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star", "type": "secondary", "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866" }
+    ],
+    "contested": true
+  },
+  {
+    "id": "ev_east_bengal_act",
+    "type": "event",
+    "title": "East Bengal State Acquisition and Tenancy Act",
+    "date": "1950-12-16",
+    "place": { "name": "East Bengal (Pakistan)", "coordinates": [24.0, 90.0] },
+    "summary_card": "The tebhaga-era demand is finally partly legislated -- not in India, but in East Bengal, four years after the movement began.",
+    "full_entry": "The 1947 bills that Partition had left unenacted were reworked and reintroduced in the East Bengal Legislative Assembly. The East Bengal State Acquisition and Tenancy Act became law on 16 December 1950, abolishing the zamindari-era Permanent Settlement in East Bengal and incorporating tebhaga-type sharecropping provisions.",
+    "relationships": [
+      { "type": "part_of", "target": "mv_tebhaga" }
+    ],
+    "sources": [
+      { "citation": "The history of the Tebhaga Movement, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement" }
+    ],
+    "contested": false
+  }
+]
