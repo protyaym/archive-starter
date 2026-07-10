@@ -14,34 +14,51 @@
 <div class="topbar">
   <h1>Left history archive</h1>
   <span class="catalog-id">pilot dataset — Tebhaga &amp; Nachole, 1938–1950</span>
+  <div class="view-tabs">
+    <button class="view-tab active" data-view="map">Map</button>
+    <button class="view-tab" data-view="timeline">Timeline</button>
+  </div>
 </div>
 
 <div class="layout">
   <aside class="ledger">
-    <h2>Entity type</h2>
-    <fieldset>
-      <label><input type="checkbox" id="filter-movements" checked> Movements</label>
-      <label><input type="checkbox" id="filter-events" checked> Events</label>
-    </fieldset>
+    <div class="filter-section" id="typeSection">
+      <button class="filter-header" data-target="typePanel"><span>Entity type</span><span class="caret">⌄</span></button>
+      <div class="filter-panel" id="typePanel">
+        <fieldset>
+          <label><input type="checkbox" id="filter-movements" checked> Movements</label>
+          <label><input type="checkbox" id="filter-events" checked> Events</label>
+        </fieldset>
+      </div>
+    </div>
 
-    <h2>Up to year</h2>
-    <fieldset>
-      <input type="range" id="decade" min="1938" max="1950" step="1" value="1950">
-      <div class="decade-readout" id="decade-readout">up to 1950</div>
-    </fieldset>
+    <div class="filter-section" id="yearSection">
+      <button class="filter-header" data-target="yearPanel"><span>Up to year</span><span class="caret">⌄</span></button>
+      <div class="filter-panel" id="yearPanel">
+        <fieldset>
+          <input type="range" id="decade" min="1938" max="1950" step="1" value="1950">
+          <div class="decade-readout" id="decade-readout">up to 1950</div>
+        </fieldset>
+      </div>
+    </div>
 
-    <h2>Region</h2>
-    <fieldset>
-      <select id="region">
-        <option value="all">All</option>
-        <option value="bengal_india">Bengal / West Bengal, India</option>
-        <option value="east_pakistan">East Bengal / Pakistan</option>
-      </select>
-    </fieldset>
+    <div class="filter-section" id="regionSection">
+      <button class="filter-header" data-target="regionPanel"><span>Region</span><span class="caret">⌄</span></button>
+      <div class="filter-panel" id="regionPanel">
+        <fieldset>
+          <select id="region">
+            <option value="all">All</option>
+            <option value="bengal_india">Bengal / West Bengal, India</option>
+            <option value="east_pakistan">East Bengal / Pakistan</option>
+          </select>
+        </fieldset>
+      </div>
+    </div>
   </aside>
 
   <main class="stage">
     <div id="map"></div>
+    <div id="timeline" style="display:none"></div>
     <div class="card" id="card"></div>
   </main>
 </div>

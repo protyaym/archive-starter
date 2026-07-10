@@ -43,6 +43,84 @@ body {
   color: var(--ink-soft);
 }
 
+.view-tabs {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
+.view-tab {
+  font-family: var(--font-body);
+  font-size: 13px;
+  background: none;
+  border: none;
+  padding: 6px 14px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.view-tab.active {
+  color: var(--gold-deep);
+  border-bottom-color: var(--gold-deep);
+  font-weight: 500;
+}
+
+#timeline {
+  position: relative;
+  height: 480px;
+  padding: 20px 40px;
+  overflow-x: auto;
+}
+
+.tl-axis-line {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 240px;
+  height: 1px;
+  background: var(--line);
+}
+
+.tl-tick {
+  position: absolute;
+  top: 234px;
+  width: 1px;
+  height: 13px;
+  background: var(--line);
+}
+
+.tl-tick-label {
+  position: absolute;
+  top: 250px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--ink-soft);
+  transform: translateX(-50%);
+}
+
+.tl-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1.5px solid var(--paper-raised);
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.tl-dot:hover { transform: translate(-50%, -50%) scale(1.3); }
+
+.tl-lane-label {
+  position: absolute;
+  left: 0;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+}
+
 .layout {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
@@ -64,6 +142,29 @@ body {
   color: var(--ink-soft);
   margin: 0 0 8px;
 }
+
+.filter-section { margin-bottom: 20px; }
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 11px;
+  color: var(--ink-soft);
+  padding: 0;
+  margin: 0 0 8px;
+  cursor: default;
+  text-align: left;
+}
+
+.filter-header .caret { display: none; }
+.filter-panel { display: block; }
 
 .ledger fieldset {
   border: none;
@@ -104,7 +205,6 @@ body {
   position: relative;
   min-height: 480px;
   background: var(--paper-raised);
-  border: 1px solid var(--line);
   border-radius: 6px;
   overflow: hidden;
 }
@@ -206,3 +306,80 @@ body {
 .sources a { color: var(--gold-deep); }
 
 .leaflet-popup-content { font-family: var(--font-body); font-size: 12px; }
+
+/* ---- Mobile: the ledger sidebar becomes a row of dropdown filters above the map ---- */
+@media (max-width: 720px) {
+  .topbar { flex-wrap: wrap; padding: 14px 16px 12px; }
+  .topbar h1 { font-size: 18px; }
+
+  .layout {
+    grid-template-columns: 1fr;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .ledger {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    border-right: none;
+    border-bottom: 1px dashed var(--line);
+    padding: 0 0 12px;
+    position: relative;
+    z-index: 2000;
+  }
+
+  .filter-section {
+    flex: 1;
+    margin-bottom: 0;
+    position: relative;
+    min-width: 0;
+  }
+
+  .filter-header {
+    cursor: pointer;
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: var(--ink);
+    font-size: 11px;
+  }
+
+  .filter-header span:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .filter-header .caret {
+    display: inline-block;
+    transition: transform 0.15s;
+    margin-left: 6px;
+    flex-shrink: 0;
+  }
+
+  .filter-section.open .filter-header .caret { transform: rotate(180deg); }
+
+  .filter-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px;
+    max-height: 60vh;
+    overflow-y: auto;
+    z-index: 3000;
+    box-shadow: 0 8px 24px rgba(27, 42, 56, 0.18);
+  }
+
+  .filter-section.open .filter-panel { display: block; }
+
+  #map, #timeline { height: 60vh; }
+  .card { width: calc(100% - 32px); }
+}
