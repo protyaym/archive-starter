@@ -1,106 +1,723 @@
 [
   {
-    "id": "ev_floud_commission",
+    "id": "ev_1947_bills",
     "type": "event",
-    "title": "Floud Commission recommends the tebhaga share",
-    "date": "1940",
-    "place": { "name": "Bengal", "coordinates": [23.7, 89.0] },
-    "summary_card": "The Bengal Land Revenue Commission recommends sharecroppers keep two-thirds of the crop instead of half -- a demand the government did not act on for six years.",
-    "full_entry": "Appointed in 1938 to review Bengal's agrarian system, the Bengal Land Revenue Commission (popularly the Floud Commission) reported that sharecroppers should be treated as protected tenants and that their legally recoverable share should fall from half to one-third for the landlord, i.e. two-thirds for the cultivator. The government of the day did not implement the recommendation, but it gave the Kisan Sabha's later demand the weight of an official finding.",
+    "title": "Bargadar bills introduced, then overtaken by Partition",
+    "summary_card": "The Suhrawardy government introduces bills to legislate the tebhaga demand, but Partition intervenes before either becomes law.",
+    "full_entry": "In response to the movement, Huseyn Shaheed Suhrawardy's Bengal government introduced the State Acquisition and Tenancy Bill and the Bengal Bargadars (Provisional) Bill in early 1947, aiming to abolish the Permanent Settlement and improve sharecroppers' legal position. Neither was enacted before Partition split the province and its legislature.",
     "relationships": [
-      { "type": "precedes", "target": "ev_bpks_call" },
-      { "type": "part_of", "target": "mv_tebhaga" },
-      { "type": "related_text", "target": "tx_floud_report" }
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "precedes",
+        "target": "ev_east_bengal_act"
+      }
     ],
     "sources": [
-      { "citation": "Tebhaga Movement (1946-1947), IAS Site", "type": "secondary", "url": "https://www.iassite.com/tebhaga-movement-1946-1947-upsc/" }
+      {
+        "citation": "The history of the Tebhaga Movement, Dhaka Tribune",
+        "type": "secondary",
+        "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement"
+      }
     ],
-    "contested": false
+    "contested": false,
+    "date": "1947-01",
+    "place": {
+      "name": "Bengal Legislative Assembly, Calcutta",
+      "coordinates": [
+        22.57,
+        88.36
+      ]
+    }
+  },
+  {
+    "id": "ev_24_parganas_uprising",
+    "type": "event",
+    "title": "Uprising in South 24 Parganas",
+    "summary_card": "Tebhaga-related peasant uprising broke out across several South 24 Parganas localities, including Kakdwip, Bhangar, Sonarpur, and Canning.",
+    "full_entry": "South 24 Parganas became one of the movement's active fronts outside North Bengal, with sharecroppers in several localities asserting the tebhaga demand and clashing with landlords' agents and police.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_kakdwip"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_bhangar"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_sonarpur"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_canning"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement (1946-1947), IAS Site",
+        "type": "secondary"
+      }
+    ],
+    "date": "1946-12",
+    "place": {
+      "name": "Kakdwip, Bhangar, Sonarpur, Canning",
+      "coordinates": [
+        21.9,
+        88.2
+      ]
+    }
+  },
+  {
+    "id": "ev_bargadari_act_1950",
+    "type": "event",
+    "title": "Bargadari Act passed",
+    "summary_card": "Years after the movement's peak, the Bargadari Act formally recognised sharecroppers' entitlement to two-thirds of the produce where they supplied the inputs — the movement's core demand, partially codified into law.",
+    "full_entry": "The Bargadari Act of 1950 represented a delayed, partial legislative outcome of the tebhaga demand, distinct from and later than the 1947 Bengal Bargadars Temporary Regulation Bill.",
+    "relationships": [
+      {
+        "type": "follows",
+        "target": "ev_1947_bills"
+      },
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement, ClearIAS",
+        "type": "secondary"
+      }
+    ],
+    "date": "1950"
   },
   {
     "id": "ev_bpks_call",
     "type": "event",
     "title": "Bengal Provincial Kisan Sabha calls for tebhaga",
-    "date": "1946-09",
-    "place": { "name": "Bengal", "coordinates": [23.7, 89.0] },
     "summary_card": "The Kisan Sabha formally decides to launch the tebhaga struggle from the next harvest.",
     "full_entry": "In September 1946, the Bengal Provincial Kisan Sabha (BPKS) resolved to launch a mass struggle to enforce the tebhaga demand starting with that season's aman (winter) harvest, against the backdrop of communal riots elsewhere in Bengal. The call built on an earlier, war- and famine-delayed resolution from a 1940 Kisan Sabha conference.",
     "relationships": [
-      { "type": "part_of", "target": "mv_tebhaga" },
-      { "type": "organized_by", "target": "org_bpks" },
-      { "type": "precedes", "target": "ev_dinajpur_outbreak" }
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "organized_by",
+        "target": "org_bpks"
+      },
+      {
+        "type": "precedes",
+        "target": "ev_dinajpur_outbreak"
+      }
     ],
     "sources": [
-      { "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute", "type": "secondary", "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/" }
+      {
+        "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute",
+        "type": "secondary",
+        "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/"
+      }
     ],
-    "contested": false
+    "contested": false,
+    "date": "1946-09",
+    "place": {
+      "name": "Bengal",
+      "coordinates": [
+        23.7,
+        89
+      ]
+    }
+  },
+  {
+    "id": "ev_calcutta_socialist_nucleus_1922",
+    "type": "event",
+    "title": "Formation of Calcutta's first socialist nucleus",
+    "summary_card": "Muzaffar Ahmad organised Calcutta's first communist nucleus, drawing on contacts made through Bengali Muslim literary circles and increasing correspondence with M. N. Roy's émigré party abroad.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "a629b33c-ad5a-4bfa-aa59-5c2eb80072f5"
+      },
+      {
+        "type": "organized_by",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "part_of",
+        "target": "org_calcutta_socialist_nucleus"
+      },
+      {
+        "type": "follows",
+        "target": "ev_tashkent_cpi_founding"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta', History Workshop Journal, 2007",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      }
+    ],
+    "date": "1922",
+    "place": {
+      "name": "College Street area, Calcutta",
+      "coordinates": [
+        22.5726,
+        88.3639
+      ]
+    }
+  },
+  {
+    "id": "ev_communal_violence_impact",
+    "type": "event",
+    "title": "Communal violence and Partition weaken the movement",
+    "summary_card": "The communal violence surrounding Partition in 1946-47 divided Bengal's peasantry along religious lines, fracturing the unified front the Kisan Sabha had built and contributing to the movement's decline.",
+    "full_entry": "As Bengal moved toward Partition, communal polarisation diverted political energy and split the peasant coalition the Tebhaga movement depended on, compounding the effect of state repression.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "weakens",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute",
+        "type": "secondary"
+      }
+    ],
+    "date": "1947"
   },
   {
     "id": "ev_dinajpur_outbreak",
     "type": "event",
     "title": "Movement breaks out in Dinajpur",
-    "date": "1946-11",
-    "place": { "name": "Thakurgaon subdivision, Dinajpur", "coordinates": [25.63, 88.64] },
     "summary_card": "Sharecroppers in Dinajpur begin carrying harvested paddy to their own threshing floors instead of the landlord's godown, sparking the movement's first clashes.",
     "full_entry": "The first direct action is generally traced to Atwari village in northwest Dinajpur, where bargadar volunteers harvested their fields and carried the grain to their own khamar rather than the jotedar's storehouse. Landlords responded with hired enforcers and police; violent clashes followed, Kisan Sabha organizers were arrested, and the movement spread outward to an estimated 19 districts of undivided Bengal.",
     "relationships": [
-      { "type": "part_of", "target": "mv_tebhaga" },
-      { "type": "occurred_in", "target": "pl_dinajpur" }
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "occurred_in",
+        "target": "pl_dinajpur"
+      }
     ],
     "sources": [
-      { "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File", "type": "secondary", "url": "https://www.labourfile.com/section-detail.php?aid=761" }
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary",
+        "url": "https://www.labourfile.com/section-detail.php?aid=761"
+      }
     ],
-    "contested": false
-  },
-  {
-    "id": "ev_1947_bills",
-    "type": "event",
-    "title": "Bargadar bills introduced, then overtaken by Partition",
-    "date": "1947-01",
-    "place": { "name": "Bengal Legislative Assembly, Calcutta", "coordinates": [22.57, 88.36] },
-    "summary_card": "The Suhrawardy government introduces bills to legislate the tebhaga demand, but Partition intervenes before either becomes law.",
-    "full_entry": "In response to the movement, Huseyn Shaheed Suhrawardy's Bengal government introduced the State Acquisition and Tenancy Bill and the Bengal Bargadars (Provisional) Bill in early 1947, aiming to abolish the Permanent Settlement and improve sharecroppers' legal position. Neither was enacted before Partition split the province and its legislature.",
-    "relationships": [
-      { "type": "part_of", "target": "mv_tebhaga" },
-      { "type": "precedes", "target": "ev_east_bengal_act" }
-    ],
-    "sources": [
-      { "citation": "The history of the Tebhaga Movement, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement" }
-    ],
-    "contested": false
-  },
-  {
-    "id": "ev_nachole_clash",
-    "type": "event",
-    "title": "Police clash at Kendua, Nachole",
-    "date": "1950-01-05",
-    "place": { "name": "Kendua, Nachole", "coordinates": [24.78, 88.36] },
-    "summary_card": "A patrol clashes with Santal peasants; the state responds with a large police and paramilitary deployment.",
-    "full_entry": "On 5 January 1950 a police patrol in Kendua, near Nachole, clashed with a group of Santal peasants; accounts describe several police personnel killed in the confrontation. The government deployed a large force of police and Ansar paramilitary in response, and multiple villages in the area reportedly came under attack in the aftermath. Ila Mitra was arrested in the days that followed. Casualty figures on both sides vary by source.",
-    "relationships": [
-      { "type": "part_of", "target": "mv_nachole" },
-      { "type": "occurred_in", "target": "pl_nachole" },
-      { "type": "involves", "target": "pe_ila_mitra" }
-    ],
-    "sources": [
-      { "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star", "type": "secondary", "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866" }
-    ],
-    "contested": true
+    "contested": false,
+    "date": "1946-11",
+    "place": {
+      "name": "Thakurgaon subdivision, Dinajpur",
+      "coordinates": [
+        25.63,
+        88.64
+      ]
+    }
   },
   {
     "id": "ev_east_bengal_act",
     "type": "event",
     "title": "East Bengal State Acquisition and Tenancy Act",
-    "date": "1950-12-16",
-    "place": { "name": "East Bengal (Pakistan)", "coordinates": [24.0, 90.0] },
     "summary_card": "The tebhaga-era demand is finally partly legislated -- not in India, but in East Bengal, four years after the movement began.",
     "full_entry": "The 1947 bills that Partition had left unenacted were reworked and reintroduced in the East Bengal Legislative Assembly. The East Bengal State Acquisition and Tenancy Act became law on 16 December 1950, abolishing the zamindari-era Permanent Settlement in East Bengal and incorporating tebhaga-type sharecropping provisions.",
     "relationships": [
-      { "type": "part_of", "target": "mv_tebhaga" }
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      }
     ],
     "sources": [
-      { "citation": "The history of the Tebhaga Movement, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement" }
+      {
+        "citation": "The history of the Tebhaga Movement, Dhaka Tribune",
+        "type": "secondary",
+        "url": "https://www.dhakatribune.com/bangladesh/394464/the-history-of-the-tebhaga-movement"
+      }
     ],
-    "contested": false
+    "contested": false,
+    "date": "1950-12-16",
+    "place": {
+      "name": "East Bengal (Pakistan)",
+      "coordinates": [
+        24,
+        90
+      ]
+    }
+  },
+  {
+    "id": "ev_floud_commission",
+    "type": "event",
+    "title": "Floud Commission recommends the tebhaga share",
+    "summary_card": "The Bengal Land Revenue Commission recommends sharecroppers keep two-thirds of the crop instead of half -- a demand the government did not act on for six years.",
+    "full_entry": "Appointed in 1938 to review Bengal's agrarian system, the Bengal Land Revenue Commission (popularly the Floud Commission) reported that sharecroppers should be treated as protected tenants and that their legally recoverable share should fall from half to one-third for the landlord, i.e. two-thirds for the cultivator. The government of the day did not implement the recommendation, but it gave the Kisan Sabha's later demand the weight of an official finding.",
+    "relationships": [
+      {
+        "type": "precedes",
+        "target": "ev_bpks_call"
+      },
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement (1946-1947), IAS Site",
+        "type": "secondary",
+        "url": "https://www.iassite.com/tebhaga-movement-1946-1947-upsc/"
+      }
+    ],
+    "contested": false,
+    "date": "1940",
+    "place": {
+      "name": "Bengal",
+      "coordinates": [
+        23.7,
+        89
+      ]
+    }
+  },
+  {
+    "id": "ev_garden_reach_robbery",
+    "type": "event",
+    "title": "Garden Reach motor-cab robbery",
+    "summary_card": "Naren Bhattacharya organised one of Calcutta's first 'motor dacoities' — an armed daylight robbery of Rs. 18,000 from employees of the British firm Bird & Co., using a taxi and Sikh drivers sympathetic to the Ghadar movement.",
+    "full_entry": "Four armed men stopped a horse-drawn carriage carrying company cash and escaped by taxi; Naren himself avoided conviction after another accused took the blame on his behalf, at Jatindranath Mukherjee's arrangement.",
+    "relationships": [
+      {
+        "type": "organized_by",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "part_of",
+        "target": "org_jugantar"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "date": "1915-02-12",
+    "place": {
+      "name": "Garden Reach, Calcutta",
+      "coordinates": [
+        22.5411,
+        88.2939
+      ]
+    }
+  },
+  {
+    "id": "ev_howrah_conspiracy_case",
+    "type": "event",
+    "title": "Howrah Conspiracy Case",
+    "summary_card": "Naren Bhattacharya was tried under Section 110 of the Criminal Procedure Code for alleged involvement in Eastern Bengal State Railway bombings and robberies; convicted at trial in 1910, he was acquitted on appeal by the Calcutta High Court in April 1911.",
+    "full_entry": "Colonial prosecutors built their case around roughly 100 witnesses and alleged incidents of arson, explosives use, and intimidation linked to the Eastern Bengal State Railway 'outrages' of 1908-09. Naren declined to mount any formal defence, and the trial court ordered him to furnish substantial financial sureties or serve three years in prison — a sentence police believed would keep him 'out of the way.' The Calcutta High Court overturned this on appeal in April 1911.",
+    "relationships": [
+      {
+        "type": "participant",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "part_of",
+        "target": "org_jugantar"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "date": "1910-05",
+    "place": {
+      "name": "Barrackpore court, 24 Parganas",
+      "coordinates": [
+        22.7647,
+        88.3706
+      ]
+    }
+  },
+  {
+    "id": "ev_indo_german_plot_bengal",
+    "type": "event",
+    "title": "Indo-German arms plot (Bengal / SS Maverick)",
+    "summary_card": "A wartime attempt by Bengali revolutionaries, coordinated with German agents, to land smuggled arms in the Sundarbans aboard the SS Maverick for a planned insurrection; the ship never arrived, and Naren Bhattacharya's subsequent mission to secure further German assistance in Batavia was also refused.",
+    "relationships": [
+      {
+        "type": "participant",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "part_of",
+        "target": "org_jugantar"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "editor_note": "Broader Indo-German Conspiracy involved networks far beyond Bengal (Ghadar Party, Ottoman and German diplomacy); this entry covers only the Bengal/Sundarbans dimension described in the source used.",
+    "date": "1915",
+    "place": {
+      "name": "Sundarbans, South 24 Parganas",
+      "coordinates": [
+        21.9,
+        88.9
+      ]
+    }
+  },
+  {
+    "id": "ev_kakdwip_clash",
+    "type": "event",
+    "title": "Clashes at Kakdwip",
+    "summary_card": "Kakdwip, in South 24 Parganas, was the site of significant peasant-police confrontation during the Tebhaga movement.",
+    "full_entry": "Details of the specific incident(s) at Kakdwip need further research — it is consistently named as a flashpoint but a precise account of events, casualties, and dates has not yet been assembled here.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_kakdwip"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement (1946-1947), IAS Site",
+        "type": "secondary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "This entry is a placeholder flagging Kakdwip's significance — needs a specific, dated account of what actually happened there, ideally from Sunil Sen's monograph or a district-level study.",
+    "date": "1947-01",
+    "place": {
+      "name": "Kakdwip",
+      "coordinates": [
+        21.8747,
+        88.1866
+      ]
+    }
+  },
+  {
+    "id": "ev_kanpur_conspiracy_case",
+    "type": "event",
+    "title": "Kanpur Bolshevik Conspiracy Case",
+    "summary_card": "Muzaffar Ahmad, Nalini Gupta, Shaukat Usmani, and S. A. Dange were tried and convicted for conspiracy to establish communism in India — the first major state prosecution of India's early communist movement.",
+    "relationships": [
+      {
+        "type": "defendant",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "part_of",
+        "target": "a629b33c-ad5a-4bfa-aa59-5c2eb80072f5"
+      },
+      {
+        "type": "defendant",
+        "target": "pe_nalini_gupta"
+      },
+      {
+        "type": "defendant",
+        "target": "pe_shaukat_usmani"
+      },
+      {
+        "type": "follows",
+        "target": "ev_calcutta_socialist_nucleus_1922"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta', History Workshop Journal, 2007",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      }
+    ],
+    "date": "1924",
+    "place": {
+      "name": "Kanpur",
+      "coordinates": [
+        26.4499,
+        80.3319
+      ]
+    }
+  },
+  {
+    "id": "ev_meerut_conspiracy_case",
+    "type": "event",
+    "title": "Meerut Conspiracy Case",
+    "summary_card": "The longest political trial mounted by the colonial state in British India, running from 1929 to 1933, with Muzaffar Ahmad as chief accused among 27 communist and trade-union defendants — a trial that significantly raised the movement's public profile through the 1930s.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "a629b33c-ad5a-4bfa-aa59-5c2eb80072f5"
+      },
+      {
+        "type": "defendant",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "defendant",
+        "target": "pe_shaukat_usmani"
+      },
+      {
+        "type": "follows",
+        "target": "ev_kanpur_conspiracy_case"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta', History Workshop Journal, 2007",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      }
+    ],
+    "date": "1929",
+    "place": {
+      "name": "Meerut",
+      "coordinates": [
+        28.9845,
+        77.7064
+      ]
+    }
+  },
+  {
+    "id": "ev_mymensingh_jessore_khulna_spread",
+    "type": "event",
+    "title": "Movement spreads to Mymensingh, Jessore, and Khulna",
+    "summary_card": "Alongside North Bengal and 24 Parganas, the East Bengal districts of Mymensingh, Jessore, and Khulna became severe and violent centres of the movement.",
+    "full_entry": "By late 1946, the Tebhaga movement had spread across roughly 19 of undivided Bengal's 27 districts, with Mymensingh and the Jessore-Khulna belt named among the areas of most intense activity in eastern Bengal.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_mymensingh"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_jessore"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_khulna"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      }
+    ],
+    "date": "1946-12",
+    "place": {
+      "name": "Mymensingh, Jessore, Khulna",
+      "coordinates": [
+        23.9,
+        89.9
+      ]
+    }
+  },
+  {
+    "id": "ev_nachole_clash",
+    "type": "event",
+    "title": "Police clash at Kendua, Nachole",
+    "summary_card": "A patrol clashes with Santal peasants; the state responds with a large police and paramilitary deployment.",
+    "full_entry": "On 5 January 1950 a police patrol in Kendua, near Nachole, clashed with a group of Santal peasants; accounts describe several police personnel killed in the confrontation. The government deployed a large force of police and Ansar paramilitary in response, and multiple villages in the area reportedly came under attack in the aftermath. Ila Mitra was arrested in the days that followed. Casualty figures on both sides vary by source.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "mv_nachole"
+      },
+      {
+        "type": "occurred_in",
+        "target": "pl_nachole"
+      },
+      {
+        "type": "involves",
+        "target": "pe_ila_mitra"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star",
+        "type": "secondary",
+        "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866"
+      }
+    ],
+    "contested": true,
+    "date": "1950-01-05",
+    "place": {
+      "name": "Kendua, Nachole",
+      "coordinates": [
+        24.78,
+        88.36
+      ]
+    }
+  },
+  {
+    "id": "ev_north_bengal_spread",
+    "type": "event",
+    "title": "Tebhaga spreads through North Bengal",
+    "summary_card": "Following the initial Dinajpur outbreak, the movement spread through Rangpur, Jalpaiguri, and Malda, with Santhal and Rajbanshi sharecroppers leading direct land-occupation actions.",
+    "full_entry": "Adivasi communities, particularly Santhals and Rajbanshis, played a leading role in North Bengal's Tebhaga actions, in some accounts occupying over 1,000 acres of land by early 1947 as part of enforcing the crop-division demand directly in the fields.",
+    "relationships": [
+      {
+        "type": "follows",
+        "target": "ev_dinajpur_outbreak"
+      },
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_rangpur"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_jalpaiguri"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_malda"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga movement, Grokipedia",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "The '1,000+ acres occupied' figure originates from an AI-generated encyclopedia entry (Grokipedia), not a primary or academic secondary source. Treat as unverified until corroborated elsewhere.",
+    "date": "1946-11",
+    "place": {
+      "name": "Rangpur, Jalpaiguri, Malda",
+      "coordinates": [
+        25.9,
+        89
+      ]
+    }
+  },
+  {
+    "id": "ev_panjia_conference",
+    "type": "event",
+    "title": "Bengal Provincial Kisan Sabha conference at Panjia",
+    "summary_card": "The Bengal Provincial Kisan Sabha's conference at Panjia first raised the tebhaga demand — six years before the mass movement of 1946-47.",
+    "full_entry": "At its June 1940 conference in Panjia, Jessore district, the Bengal Provincial Kisan Sabha called for sharecroppers to receive two-thirds of the harvest rather than half. Wartime conditions and the 1943 Bengal famine delayed any large-scale action on this demand until 1946.",
+    "relationships": [
+      {
+        "type": "precedes",
+        "target": "ev_bpks_call"
+      },
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "located_in",
+        "target": "pl_panjia"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute",
+        "type": "secondary"
+      }
+    ],
+    "date": "1940-06",
+    "place": {
+      "name": "Panjia, Jessore",
+      "coordinates": [
+        23.15,
+        89.15
+      ]
+    }
+  },
+  {
+    "id": "ev_tashkent_cpi_founding",
+    "type": "event",
+    "title": "Founding of the émigré Communist Party of India at Tashkent",
+    "summary_card": "M. N. Roy, together with former pan-Islamist Muhajir migrants who had reached Soviet Central Asia, founded the émigré Communist Party of India — the organisation that would later reach into Bengal through representatives such as Nalini Gupta.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "a629b33c-ad5a-4bfa-aa59-5c2eb80072f5"
+      },
+      {
+        "type": "founded_by",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "is",
+        "target": "org_cpi_emigre_tashkent"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "date": "1920",
+    "place": {
+      "name": "Tashkent",
+      "coordinates": [
+        41.2995,
+        69.2401
+      ]
+    }
+  },
+  {
+    "id": "ev_womens_participation",
+    "type": "event",
+    "title": "Organised participation of women in Tebhaga",
+    "summary_card": "Women, including through the Mahila Atma Raksha Samiti, took an active and in some accounts armed role in Tebhaga actions — guarding crops, attending meetings, and confronting police and landlords' agents.",
+    "full_entry": "Multiple accounts of the Tebhaga movement note the significant and organised role women played, a notable departure from more limited female participation in many earlier peasant and nationalist movements in the region.",
+    "relationships": [
+      {
+        "type": "part_of",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "organized_by",
+        "target": "org_mars"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement, Causes, Features, Impacts, UPSC Notes, Vajiram & Ravi",
+        "type": "secondary"
+      }
+    ],
+    "date": "1946"
   }
 ]

@@ -1,29 +1,365 @@
 [
   {
+    "id": "f6485b01-0a21-4bb1-bc57-00470f7b6966",
+    "type": "place",
+    "name": "Tashkent ",
+    "relationships": [],
+    "sources": [],
+    "coordinates": [
+      41.311,
+      49.241
+    ],
+    "admin_pre1947": "Soviet Turkistan",
+    "admin_post1947": "Uzbekistan"
+  },
+  {
+    "id": "pl_bhangar",
+    "type": "place",
+    "name": "Bhangar",
+    "summary_card": "South 24 Parganas locality named as a site of peasant uprising during Tebhaga.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      22.4167,
+      88.4167
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "South 24 Parganas locality named as a site of peasant uprising during Tebhaga."
+  },
+  {
+    "id": "pl_canning",
+    "type": "place",
+    "name": "Canning",
+    "summary_card": "South 24 Parganas locality named as a site of peasant uprising during Tebhaga.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      22.3167,
+      88.6667
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "South 24 Parganas locality named as a site of peasant uprising during Tebhaga."
+  },
+  {
     "id": "pl_dinajpur",
     "type": "place",
     "name": "Dinajpur",
-    "coordinates": [25.63, 88.64],
+    "relationships": [],
+    "sources": [],
+    "coordinates": [
+      25.63,
+      88.64
+    ],
     "admin_pre1947": "District, Bengal Presidency, British India",
     "admin_post1947": "Split by Partition -- Dinajpur District, Bangladesh, and Uttar/Dakshin Dinajpur, West Bengal, India",
     "note": "Where the Tebhaga movement's first direct actions began, in the Thakurgaon subdivision."
   },
   {
+    "id": "pl_east_medinipur",
+    "type": "place",
+    "name": "South-East Midnapur",
+    "summary_card": "Named among the districts where the Tebhaga movement was most severe and violent.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      21.9,
+      87.8
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "Named among the districts where the Tebhaga movement was most severe and violent."
+  },
+  {
+    "id": "pl_jalpaiguri",
+    "type": "place",
+    "name": "Jalpaiguri",
+    "summary_card": "North Bengal district where Santhal and Rajbanshi sharecroppers led localized Tebhaga land-occupation actions in early 1947.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      26.5449,
+      88.7189
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "North Bengal district where Santhal and Rajbanshi sharecroppers led localized Tebhaga land-occupation actions in early 1947."
+  },
+  {
+    "id": "pl_jessore",
+    "type": "place",
+    "name": "Jessore",
+    "summary_card": "East Bengal (now Bangladesh) district; site of the 1940 Bengal Provincial Kisan Sabha conference that first raised the tebhaga demand, and later a severe Tebhaga-era flashpoint.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      23.1667,
+      89.2167
+    ],
+    "admin_post1947": "Bangladesh",
+    "note": "East Bengal (now Bangladesh) district; site of the 1940 Bengal Provincial Kisan Sabha conference that first raised the tebhaga demand, and later a severe Tebhaga-era flashpoint."
+  },
+  {
     "id": "pl_kakdwip",
     "type": "place",
     "name": "Kakdwip",
-    "coordinates": [21.93, 88.19],
+    "relationships": [],
+    "sources": [],
+    "coordinates": [
+      21.93,
+      88.19
+    ],
     "admin_pre1947": "South 24-Parganas, Bengal Presidency, British India",
     "admin_post1947": "South 24 Parganas district, West Bengal, India",
     "note": "One of the movement's southern storm centres, along with Namkhana."
   },
   {
+    "id": "pl_khulna",
+    "type": "place",
+    "name": "Khulna",
+    "summary_card": "East Bengal (now Bangladesh) district named, alongside Jessore, among the movement's most severe centres.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      22.8456,
+      89.5403
+    ],
+    "admin_post1947": "Bangladesh",
+    "note": "East Bengal (now Bangladesh) district named, alongside Jessore, among the movement's most severe centres."
+  },
+  {
+    "id": "pl_malda",
+    "type": "place",
+    "name": "Malda",
+    "summary_card": "North Bengal district named among the movement's most intense and violent centres.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      25.0108,
+      88.1411
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "North Bengal district named among the movement's most intense and violent centres."
+  },
+  {
+    "id": "pl_mymensingh",
+    "type": "place",
+    "name": "Mymensingh",
+    "summary_card": "East Bengal (now Bangladesh) district named among the movement's most intense centres.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      24.7471,
+      90.4203
+    ],
+    "admin_post1947": "Bangladesh",
+    "note": "East Bengal (now Bangladesh) district named among the movement's most intense centres."
+  },
+  {
     "id": "pl_nachole",
     "type": "place",
     "name": "Nachole",
-    "coordinates": [24.78, 88.36],
+    "relationships": [],
+    "sources": [],
+    "coordinates": [
+      24.78,
+      88.36
+    ],
     "admin_pre1947": "Rajshahi District, Bengal Presidency, British India",
     "admin_post1947": "Nachole Upazila, Chapainawabganj District, East Bengal/Pakistan (1947-71), then Bangladesh",
     "note": "Site of the January 1950 uprising led by Ila Mitra, the Tebhaga movement's continuation after Partition."
+  },
+  {
+    "id": "pl_panjia",
+    "type": "place",
+    "name": "Panjia",
+    "summary_card": "Village in Jessore district where the Bengal Provincial Kisan Sabha's June 1940 conference first called for tebhaga, years before the mass movement of 1946-47.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      23.15,
+      89.15
+    ],
+    "admin_post1947": "Bangladesh",
+    "note": "Village in Jessore district where the Bengal Provincial Kisan Sabha's June 1940 conference first called for tebhaga, years before the mass movement of 1946-47."
+  },
+  {
+    "id": "pl_rangpur",
+    "type": "place",
+    "name": "Rangpur",
+    "summary_card": "One of the North Bengal districts named among the most severe and violent centres of the Tebhaga movement.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      25.7439,
+      89.2752
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "One of the North Bengal districts named among the most severe and violent centres of the Tebhaga movement."
+  },
+  {
+    "id": "pl_sonarpur",
+    "type": "place",
+    "name": "Sonarpur",
+    "summary_card": "South 24 Parganas locality named as a site of peasant uprising during Tebhaga.",
+    "relationships": [
+      {
+        "type": "site_of",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "A Struggle for Fair Share: Recounting the Tebhaga Movement, 1946-47, Labour File",
+        "type": "secondary"
+      },
+      {
+        "citation": "Tebhaga movement, Wikipedia",
+        "type": "tertiary"
+      }
+    ],
+    "coordinates": [
+      22.4402,
+      88.43
+    ],
+    "admin_post1947": "West Bengal, India",
+    "note": "South 24 Parganas locality named as a site of peasant uprising during Tebhaga."
   }
 ]

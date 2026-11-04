@@ -123,7 +123,10 @@ function renderMarkers() {
 // ---------- TIMELINE VIEW ----------
 
 function computeTimelineRange() {
+  // Only types that are drawn on the timeline: a text's publication date
+  // (e.g. a 2026 article) must not stretch the axis.
   const years = Object.values(allEntities)
+    .filter((e) => e.type === "movement" || e.type === "event")
     .map(entityDecimalYear)
     .filter((y) => y !== null);
   if (years.length === 0) return;
@@ -258,10 +261,21 @@ function buildFilterToggles() {
   });
 }
 
+// The slider range comes from the data, so new entities outside the pilot's
+// 1938-1950 window don't silently fall off the start of the range.
+function syncYearSliderToData() {
+  const slider = document.getElementById("decade");
+  slider.min = timelineRange.min;
+  slider.max = timelineRange.max;
+  slider.value = timelineRange.max;
+  document.getElementById("decade-readout").textContent = "up to " + timelineRange.max;
+}
+
 async function main() {
   initMap();
   await loadData();
   computeTimelineRange();
+  syncYearSliderToData();
   renderMarkers();
   buildFilterToggles();
 

@@ -1,68 +1,710 @@
 [
   {
-    "id": "pe_konar",
+    "id": "pe_abani_lahiri",
     "type": "person",
-    "name": "Hare Krishna Konar",
-    "role": "Kisan Sabha and Communist Party organizer",
-    "summary_card": "Kisan Sabha leader during Tebhaga who later held land-reform responsibility in West Bengal's Left Front-era governments.",
-    "full_entry": "One of the Kisan Sabha's key organizers during the Tebhaga movement. Later associated with land-reform policy in West Bengal's United Front and Left Front governments of the late 1960s and after.",
+    "name": "Abani Lahiri",
+    "summary_card": "CPI organiser and later memoirist whose account of the postwar peasant movement in Bengal covers Tebhaga-era organising.",
+    "full_entry": "Lahiri's memoir of the postwar peasant unrest in Bengal is cited by historians of the period as a first-hand account of Communist Party organising work in the countryside.",
     "relationships": [
-      { "type": "member_of", "target": "org_bpks" },
-      { "type": "led", "target": "mv_tebhaga" }
+      {
+        "type": "participant_in",
+        "target": "mv_tebhaga"
+      }
     ],
     "sources": [
-      { "citation": "Tebhaga Movement, Causes, Features, Impacts, Vajiram & Ravi", "type": "tertiary", "url": "https://vajiramandravi.com/upsc-exam/tebhaga-movement/" }
+      {
+        "citation": "Abani Lahiri, Postwar Revolt of the Rural Poor in Bengal, Seribaan, 2001",
+        "type": "primary"
+      }
     ],
-    "editor_note": "Ministerial title and dates need verification against a primary or academic source before publishing -- not confirmed to the standard the rest of this record needs."
+    "role": "Communist Party organizer active in Bengal peasant movements of the 1940s"
+  },
+  {
+    "id": "pe_abdul_halim",
+    "type": "person",
+    "name": "Abdul Halim",
+    "summary_card": "Recruited by Muzaffar Ahmad in 1922, Abdul Halim remained a communist activist until his death in 1966, sharing Muzaffar's precarious, often homeless existence in Calcutta during 1923.",
+    "full_entry": "Halim was among the founding figures of the small communist nucleus Muzaffar Ahmad built in Calcutta from 1922. Through 1923, as both men lived without fixed addresses, Halim's lodgings at 110 Harrison Road served as an informal postbox for the group's correspondence with M. N. Roy's network abroad.",
+    "relationships": [
+      {
+        "type": "recruited_by",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "member_of",
+        "target": "org_calcutta_socialist_nucleus"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Arun Chowdhury and Ashok Bandyopadhyay (ed.), Jibaner Sangrame Comrade Abdul Halim, National Book Agency, Kolkata, 2002",
+        "type": "secondary"
+      }
+    ],
+    "role": "Founding member of Calcutta's communist nucleus"
+  },
+  {
+    "id": "pe_abdur_rezzaq_khan",
+    "type": "person",
+    "name": "Abdur Rezzaq Khan",
+    "summary_card": "A minor figure in Calcutta's Bengal Muslim Literary Society who became Muzaffar Ahmad's first socialist collaborator in the early 1920s.",
+    "full_entry": "Khan's family address on Maharani Swarnamoyee Road later served as a postbox for correspondence between Muzaffar Ahmad and M. N. Roy's Comintern network. His father-in-law, Maulana Akram Khan, edited the anti-colonial journal Mohammadi from the same street where Naren Bhattacharya had also once lived, decades before the two circles converged politically.",
+    "relationships": [
+      {
+        "type": "associated_with",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "member_of",
+        "target": "org_calcutta_socialist_nucleus"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'The City of Muzaffar Ahmad', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "role": "Muzaffar Ahmad's first socialist colleague"
+  },
+  {
+    "id": "pe_ajit_bose",
+    "type": "person",
+    "name": "Ajit Bose",
+    "summary_card": "Ajit Bose is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_bhawan_singh",
+    "type": "person",
+    "name": "Bhawan Singh",
+    "summary_card": "Named alongside Kampram Singh in several accounts as a leading organiser of the Tebhaga movement's North Bengal phase.",
+    "full_entry": "Consistently paired with Kampram Singh in secondary literature as a co-leader of the movement's early North Bengal organising.",
+    "relationships": [
+      {
+        "type": "organizer_in",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "active_in",
+        "target": "pl_dinajpur"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Testbook and Vajiram & Ravi UPSC study notes",
+        "type": "secondary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Same caveat as Kampram Singh — verify against an academic source before treating as settled.",
+    "role": "Kisan Sabha organizer, North Bengal"
+  },
+  {
+    "id": "pe_bhupal_panda",
+    "type": "person",
+    "name": "Bhupal Panda",
+    "summary_card": "Bhupal Panda is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_binoy_krishna_basu",
+    "type": "person",
+    "name": "Binoy Krishna Basu",
+    "summary_card": "Binoy Krishna Basu is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_bishnu_chattopadhyay",
+    "type": "person",
+    "name": "Bishnu Chattopadhyay",
+    "summary_card": "Bishnu Chattopadhyay is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
   },
   {
     "id": "pe_choudhury",
     "type": "person",
     "name": "Benoy Choudhury",
-    "role": "Kisan Sabha and Communist Party organizer",
     "summary_card": "Kisan Sabha leader during Tebhaga, later associated with land-reform administration in West Bengal.",
     "full_entry": "Named among the Tebhaga movement's Communist Party leadership. Later associated with land-reform administration in West Bengal under Left Front governments.",
     "relationships": [
-      { "type": "member_of", "target": "org_bpks" },
-      { "type": "led", "target": "mv_tebhaga" }
+      {
+        "type": "member_of",
+        "target": "org_bpks"
+      },
+      {
+        "type": "led",
+        "target": "mv_tebhaga"
+      }
     ],
     "sources": [
-      { "citation": "Tebhaga Movement, Causes, Features, Impacts, Vajiram & Ravi", "type": "tertiary", "url": "https://vajiramandravi.com/upsc-exam/tebhaga-movement/" }
+      {
+        "citation": "Tebhaga Movement, Causes, Features, Impacts, Vajiram & Ravi",
+        "type": "tertiary",
+        "url": "https://vajiramandravi.com/upsc-exam/tebhaga-movement/"
+      }
     ],
-    "editor_note": "Same caveat as Hare Krishna Konar -- verify before publishing."
+    "editor_note": "Same caveat as Hare Krishna Konar -- verify before publishing.",
+    "role": "Kisan Sabha and Communist Party organizer"
   },
   {
-    "id": "pe_majumdar",
+    "id": "pe_debaprasad_ghosh",
     "type": "person",
-    "name": "Charu Majumdar",
-    "role": "Kisan Sabha organizer, Dinajpur and Jalpaiguri",
-    "summary_card": "Organized Tebhaga struggles in Dinajpur and Jalpaiguri -- two decades before founding the party that led the 1967 Naxalbari uprising.",
-    "full_entry": "Led Tebhaga-era peasant organizing in Dinajpur and Jalpaiguri districts. This entity deliberately does not yet describe his later role founding CPI(ML) and leading the 1967 Naxalbari uprising -- that belongs to a separate, later movement entity once it's built, linked back here with a 'preceded_by' or 'earlier_role' relationship. Leaving the forward link empty for now is intentional: it shows how the schema is meant to grow rather than trying to write the whole timeline into one entity.",
+    "name": "Debaprasad Ghosh",
+    "summary_card": "Debaprasad Ghosh is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
     "relationships": [
-      { "type": "member_of", "target": "org_bpks" },
-      { "type": "led", "target": "mv_tebhaga" }
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
     ],
     "sources": [
-      { "citation": "Remembering Ila Mitra, Nacholer Rani, Dhaka Tribune", "type": "secondary", "url": "https://www.dhakatribune.com/bangladesh/394458/remembering-ila-mitra-nacholer-rani" }
-    ]
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_ganendranath_sarkar",
+    "type": "person",
+    "name": "Ganendranath Sarkar",
+    "summary_card": "Ganendranath Sarkar is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_ganesh_das",
+    "type": "person",
+    "name": "Ganesh Das",
+    "summary_card": "Ganesh Das is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_haji_mohammad_danesh",
+    "type": "person",
+    "name": "Haji Mohammad Danesh",
+    "summary_card": "North Bengal peasant organiser during Tebhaga who went on to a significant political career in East Pakistan and then Bangladesh.",
+    "full_entry": "Danesh's involvement in Tebhaga-era peasant organising in North Bengal is relatively well documented compared to some other named leaders, given his later prominent public career.",
+    "relationships": [
+      {
+        "type": "organizer_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Multiple biographical sources on Haji Mohammad Danesh's political career reference his Tebhaga-era peasant organising",
+        "type": "secondary"
+      }
+    ],
+    "role": "Kisan Sabha organizer, North Bengal; later a prominent East Pakistan/Bangladesh politician"
   },
   {
     "id": "pe_ila_mitra",
     "type": "person",
     "name": "Ila Mitra",
-    "role": "Peasant and Santal movement leader",
-    "lifespan": "1925-2002",
     "summary_card": "Led the Santal and sharecropper uprising around Nachole; arrested and tortured in 1950 for it, later paroled on health grounds.",
     "full_entry": "Born Ila Sen in Kolkata in 1925, she was selected for the 1940 Olympics as an athlete before the Games were cancelled by the war. After her 1945 marriage to Ramendra Mitra, she settled in Chapainawabganj and became a teacher and organizer among the local Santal and peasant community, who called her Rani Ma (queen mother). She led the tebhaga-era organizing that culminated in the January 1950 Nachole uprising. Arrested while fleeing after the Kendua clash, she was held at Nachole police station where she was tortured, including sexual assault -- documented consistently across the sources checked for this entry -- before being moved to Rajshahi Central Jail. Convicted on charges related to the uprising, she was sentenced to life imprisonment and paroled in 1954 due to ill health, going to Kolkata for treatment.",
     "relationships": [
-      { "type": "led", "target": "mv_nachole" },
-      { "type": "involved_in", "target": "ev_nachole_clash" }
+      {
+        "type": "led",
+        "target": "mv_nachole"
+      },
+      {
+        "type": "involved_in",
+        "target": "ev_nachole_clash"
+      }
     ],
     "sources": [
-      { "citation": "Ila Mitra, Wikipedia", "type": "tertiary", "url": "https://en.wikipedia.org/wiki/Ila_Mitra" },
-      { "citation": "Mitra, Ila, Banglapedia", "type": "secondary", "url": "https://en.banglapedia.org/index.php/Mitra,_Ila" },
-      { "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star", "type": "secondary", "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866" }
+      {
+        "citation": "Ila Mitra, Wikipedia",
+        "type": "tertiary",
+        "url": "https://en.wikipedia.org/wiki/Ila_Mitra"
+      },
+      {
+        "citation": "Mitra, Ila, Banglapedia",
+        "type": "secondary",
+        "url": "https://en.banglapedia.org/index.php/Mitra,_Ila"
+      },
+      {
+        "citation": "Ila Mitra: A symbol of indomitable courage, The Daily Star",
+        "type": "secondary",
+        "url": "https://www.thedailystar.net/opinion/focus/news/ila-mitra-symbol-indomitable-courage-4073866"
+      }
     ],
-    "contested": false
+    "contested": false,
+    "role": "Peasant and Santal movement leader"
+  },
+  {
+    "id": "pe_jatindranath_mukherjee",
+    "type": "person",
+    "name": "Jatindranath Mukherjee ('Bagha Jatin')",
+    "summary_card": "A former Bengal Secretariat stenographer turned revolutionary leader, Jatindranath Mukherjee mentored the young Naren Bhattacharya and led the strategy of planned armed insurrection that culminated in the failed wartime Indo-German arms plot. He was killed in a police encounter in Odisha in September 1915.",
+    "full_entry": "Known as 'Tiger' or 'Bagha' Jatin, Mukherjee argued within the Jugantar current for a strategy of coordinated, internationally-supplied insurrection rather than sporadic individual action — a strategy that led to attempts to bring German arms into Bengal during the First World War. His death in a police encounter in September 1915 effectively ended that phase of the movement and was part of what pushed his protégé, Naren Bhattacharya, to leave India in search of arms abroad — a journey that eventually remade him as M. N. Roy.",
+    "relationships": [
+      {
+        "type": "mentor_of",
+        "target": "pe_mn_roy"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "editor_note": "Precise date and circumstances of Jatin's death (place, exact encounter details) should be independently confirmed and added.",
+    "role": "Revolutionary nationalist leader; Naren Bhattacharya's mentor"
+  },
+  {
+    "id": "pe_kali_sarkar",
+    "type": "person",
+    "name": "Kali Sarkar",
+    "summary_card": "Kali Sarkar is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_kampram_singh",
+    "type": "person",
+    "name": "Kampram Singh",
+    "summary_card": "Cited across several sources as a key organiser of Tebhaga in North Bengal, particularly among Rajbanshi and Santhal sharecroppers.",
+    "full_entry": "Named alongside Bhawan Singh in multiple secondary accounts as a leading local organiser during the movement's earliest and most intense phase in Dinajpur district.",
+    "relationships": [
+      {
+        "type": "organizer_in",
+        "target": "mv_tebhaga"
+      },
+      {
+        "type": "active_in",
+        "target": "pl_dinajpur"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Testbook and Vajiram & Ravi UPSC study notes both name Kampram/Kompram Singh as a movement leader",
+        "type": "secondary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Spelling varies across sources (Kampram/Kompram Singh Sanyal). Role and exact contribution should be checked against Sunil Sen's monograph.",
+    "role": "Kisan Sabha organizer, North Bengal (Dinajpur area)"
+  },
+  {
+    "id": "pe_kansari_halder",
+    "type": "person",
+    "name": "Kansari Halder",
+    "summary_card": "Kansari Halder is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_kazi_nazrul_islam",
+    "type": "person",
+    "name": "Kazi Nazrul Islam",
+    "summary_card": "Now widely known as Bangladesh's national poet, Nazrul was a close literary associate of Muzaffar Ahmad in Calcutta in the years around 1918-1922, and briefly wrote for the Bengal Muslim Literary Society's journal after being politicised, in part, by news of the Bolshevik Revolution during his army service.",
+    "full_entry": "After demobilisation from the Bengal Regiment, Nazrul became active in Calcutta's Bengali Muslim literary scene alongside Muzaffar Ahmad, including a period living together at 32 College Street. Muzaffar edited some of Nazrul's early politically-charged writing for the Literary Society's journal, at times softening explicit references to the Red Army to avoid colonial censorship. Nazrul later edited the radical journal Dhumketu, to which Muzaffar also contributed.",
+    "relationships": [
+      {
+        "type": "associated_with",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "member_of",
+        "target": "org_bengal_muslim_literary_society"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'The City of Muzaffar Ahmad', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "editor_note": "This entry covers only Nazrul's overlap with Muzaffar Ahmad's circle — his far more extensive literary and political career deserves a fuller entry of its own eventually.",
+    "role": "Poet and writer; associate of Muzaffar Ahmad in Calcutta's Bengali Muslim literary circles"
+  },
+  {
+    "id": "pe_konar",
+    "type": "person",
+    "name": "Hare Krishna Konar",
+    "summary_card": "Kisan Sabha leader during Tebhaga who later held land-reform responsibility in West Bengal's Left Front-era governments.",
+    "full_entry": "One of the Kisan Sabha's key organizers during the Tebhaga movement. Later associated with land-reform policy in West Bengal's United Front and Left Front governments of the late 1960s and after.",
+    "relationships": [
+      {
+        "type": "member_of",
+        "target": "org_bpks"
+      },
+      {
+        "type": "led",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement, Causes, Features, Impacts, Vajiram & Ravi",
+        "type": "tertiary",
+        "url": "https://vajiramandravi.com/upsc-exam/tebhaga-movement/"
+      }
+    ],
+    "editor_note": "Ministerial title and dates need verification against a primary or academic source before publishing -- not confirmed to the standard the rest of this record needs.",
+    "role": "Kisan Sabha and Communist Party organizer"
+  },
+  {
+    "id": "pe_krishnavinod_roy",
+    "type": "person",
+    "name": "Krishnavinod Roy",
+    "summary_card": "Krishnavinod Roy is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_mn_roy",
+    "type": "person",
+    "name": "M. N. Roy",
+    "summary_card": "Born Narendranath Bhattacharya in 24 Parganas, he spent his twenties in Bengal's armed revolutionary underground before a journey through Southeast Asia, Japan, and the Americas transformed him into M. N. Roy — a founding figure of the Communist Parties of Mexico and India, and a Comintern theorist who debated Lenin on colonial revolutionary strategy.",
+    "full_entry": "As a teenager in the Sonarpur-Changripota area of 24 Parganas, Narendranath Bhattacharya was drawn into Bengal's militant nationalist underground, joining the Anushilan Samiti network and later becoming a close follower of the revolutionary leader Jatindranath Mukherjee ('Bagha Jatin'). Through the 1910s he was repeatedly arrested and tried — including the Howrah Conspiracy Case, which ended in a High Court acquittal in 1911 — while surviving on a string of odd jobs and organising armed robberies to fund the movement, most notably the 1915 Garden Reach heist and an attempt to smuggle German arms into Bengal aboard the SS Maverick. That attempt failed, and with Jatin killed by police in September 1915, Naren left India to seek arms abroad, travelling through Southeast Asia, Japan, and eventually the Americas. It was in Mexico that his politics shifted decisively: he became a founder of the Communist Party of Mexico, then of the émigré Communist Party of India, founded at Tashkent in 1920, and engaged directly with Lenin and the Communist International on the strategy of anti-colonial revolution. He never returned to the methods or the social milieu of his earlier revolutionary-nationalist years.",
+    "relationships": [
+      {
+        "type": "member_of",
+        "target": "org_anushilan_samiti"
+      },
+      {
+        "type": "founder_of",
+        "target": "org_cpi_emigre_tashkent"
+      },
+      {
+        "type": "influenced_by",
+        "target": "pe_jatindranath_mukherjee"
+      },
+      {
+        "type": "subject_of",
+        "target": "tx_before_mn_roy"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_howrah_conspiracy_case"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_indo_german_plot_bengal"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "role": "Revolutionary nationalist turned Marxist theorist; founder of the émigré Communist Party of India"
+  },
+  {
+    "id": "pe_muzaffar_ahmad",
+    "type": "person",
+    "name": "Muzaffar Ahmad",
+    "summary_card": "A migrant from Sandwip island who arrived in Calcutta in 1913 hoping to become a writer, Muzaffar Ahmad became first a Bengali Muslim literary activist, then a labour journalist, and by 1922 the central organiser of Calcutta's first socialist nucleus — remaining a leading figure of the Indian communist movement for the next five decades.",
+    "full_entry": "Muzaffar Ahmad's early years in Calcutta centred on the Bengal Muslim Literary Society and its journal, where he wrote on Bengali Muslim culture, language, and, occasionally, gender. Excluded by the Hindu-revivalist imagery of the existing revolutionary-nationalist underground, he stayed at its margins through the First World War, drawn instead toward the city's dockworkers and labouring poor, whom he came to know partly through Sandwip's own large seafaring community. The postwar labour upsurge and the example of the Bolshevik Revolution pulled him fully into politics after 1919: by 1922 he had organised Calcutta's first socialist nucleus, corresponding with M. N. Roy's Comintern network. He was arrested in 1923 and convicted the following year in the Kanpur Bolshevik Conspiracy Case, then again tried as the lead accused in the long-running Meerut Conspiracy Case of 1929-33. He remained a senior CPI figure in West Bengal until his death in 1973; the party's state headquarters in Kolkata is now named after him.",
+    "relationships": [
+      {
+        "type": "founder_of",
+        "target": "org_calcutta_socialist_nucleus"
+      },
+      {
+        "type": "member_of",
+        "target": "org_bengal_muslim_literary_society"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_kanpur_conspiracy_case"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_meerut_conspiracy_case"
+      },
+      {
+        "type": "subject_of",
+        "target": "tx_city_of_muzaffar_ahmad"
+      },
+      {
+        "type": "subject_of",
+        "target": "tx_war_migration_alienation"
+      },
+      {
+        "type": "associated_with",
+        "target": "pe_kazi_nazrul_islam"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta', History Workshop Journal, 2007",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      },
+      {
+        "citation": "Suchetana Chattopadhyay, 'The City of Muzaffar Ahmad', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "role": "Founding organiser of Calcutta's first socialist nucleus; senior CPI leader"
+  },
+  {
+    "id": "pe_nalini_gupta",
+    "type": "person",
+    "name": "Nalini Gupta",
+    "summary_card": "Sent by M. N. Roy to Calcutta in late 1921, Nalini Gupta connected Roy's émigré Communist Party network with Muzaffar Ahmad's circle, before being convicted alongside Muzaffar in the 1924 Kanpur Conspiracy Case.",
+    "relationships": [
+      {
+        "type": "represented",
+        "target": "org_cpi_emigre_tashkent"
+      },
+      {
+        "type": "connected",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_kanpur_conspiracy_case"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'The City of Muzaffar Ahmad', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "role": "M. N. Roy's representative in Calcutta"
+  },
+  {
+    "id": "pe_noor_jalal",
+    "type": "person",
+    "name": "Noor Jalal",
+    "summary_card": "Noor Jalal is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_rupanarayan_roy",
+    "type": "person",
+    "name": "Rupanarayan Roy",
+    "summary_card": "Rupanarayan Roy is listed among Tebhaga movement leaders in secondary compilations; specific role and location not yet verified.",
+    "full_entry": "Entry created as a placeholder from a leader-name list found in exam-prep study aggregators. No independent corroboration or specific role/district has been added yet.",
+    "relationships": [
+      {
+        "type": "named_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "IAS Site / UPSC exam-prep compilation listing Tebhaga movement leaders",
+        "type": "tertiary"
+      }
+    ],
+    "contested": true,
+    "editor_note": "Name/role sourced only from exam-prep aggregator sites (e.g. IAS/UPSC study sites), not an academic source. Cross-check against Sunil Sen's 'Agrarian Struggle in Bengal, 1946-47' or Adrienne Cooper's work on Bengal sharecroppers before publishing.",
+    "role": "Named as a Tebhaga movement leader/organizer in secondary sources (role and district not yet confirmed)"
+  },
+  {
+    "id": "pe_shaukat_usmani",
+    "type": "person",
+    "name": "Shaukat Usmani",
+    "summary_card": "A member of the émigré Communist Party of India founded at Tashkent, Usmani was the first of the Kanpur Conspiracy Case defendants to be arrested, and was later also tried in the Meerut Conspiracy Case.",
+    "relationships": [
+      {
+        "type": "member_of",
+        "target": "org_cpi_emigre_tashkent"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_kanpur_conspiracy_case"
+      },
+      {
+        "type": "participant_in",
+        "target": "ev_meerut_conspiracy_case"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'The City of Muzaffar Ahmad', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "role": "Émigré Communist Party of India member; Kanpur and Meerut Conspiracy Case defendant"
+  },
+  {
+    "id": "pe_sunil_sen",
+    "type": "person",
+    "name": "Sunil Sen",
+    "summary_card": "Communist activist and later historian whose 1972 monograph 'Agrarian Struggle in Bengal, 1946-47' remains the standard scholarly account of Tebhaga.",
+    "full_entry": "Sen was involved in the Kisan Sabha's peasant organising in Bengal and later wrote what is widely regarded as the foundational historical study of the Tebhaga movement, drawing on his own participation as well as archival and field research.",
+    "relationships": [
+      {
+        "type": "participant_in",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Sunil Sen, Agrarian Struggle in Bengal, 1946-47, People's Publishing House, 1972",
+        "type": "primary"
+      }
+    ],
+    "role": "Historian and Kisan Sabha participant; author of the primary scholarly account of the movement"
   }
 ]

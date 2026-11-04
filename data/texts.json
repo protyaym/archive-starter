@@ -1,30 +1,129 @@
 [
   {
-    "id": "tx_floud_report",
+    "id": "tx_before_mn_roy",
     "type": "text",
-    "title": "Bengal Land Revenue Commission Report (Floud Commission)",
-    "date": "1940",
-    "source_class": "primary",
-    "summary_card": "Government commission report recommending sharecroppers' share rise from one-half to two-thirds.",
+    "title": "Before he was 'M. N. Roy'",
+    "summary_card": "Suchetana Chattopadhyay's biographical study of Narendranath Bhattacharya's years as a revolutionary nationalist in Bengal before he re-emerged internationally as M. N. Roy, based on colonial surveillance records and later scholarship.",
     "relationships": [
-      { "type": "related_event", "target": "ev_floud_commission" }
+      {
+        "type": "about",
+        "target": "pe_mn_roy"
+      }
     ],
     "sources": [
-      { "citation": "Tebhaga Movement (1946-1947), IAS Site", "type": "secondary", "url": "https://www.iassite.com/tebhaga-movement-1946-1947-upsc/" }
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 6 July 2026 — an updated version of 'Being 'Naren Bhattacharji'' in Vijay Prashad (ed.), Communist Histories Vol. 1, LeftWord Books, 2016",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
     ],
-    "editor_note": "Locate and link a digitized or archival copy of the actual report before publishing -- currently only described secondhand."
+    "editor_note": "Exact article permalink not yet added — only the Substack's base URL is on file; update once the direct link is available.",
+    "date": "2026-07",
+    "source_class": "secondary"
   },
   {
-    "id": "tx_sen_agrarian_struggle",
+    "id": "tx_city_of_muzaffar_ahmad",
+    "type": "text",
+    "title": "The City of Muzaffar Ahmad",
+    "summary_card": "A photo-essay by Suchetana Chattopadhyay tracing the Calcutta streets and addresses associated with Muzaffar Ahmad's first decade in the city (1913-1923), built from memoirs, police dossiers, and site visits made between 2000 and 2026.",
+    "relationships": [
+      {
+        "type": "about",
+        "target": "pe_muzaffar_ahmad"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'The City of Muzaffar Ahmad', Derelict Destinations (Substack), 6 July 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "editor_note": "Exact article permalink not yet added. Also contains a rich set of street photographs (College Street, Harrison Road, Moulavi Lane, etc.) not yet represented in this archive's data.",
+    "date": "2026-07",
+    "source_class": "secondary"
+  },
+  {
+    "id": "tx_floud_land_report",
+    "type": "text",
+    "title": "Bengal Land Revenue Commission Report (Floud Commission)",
+    "summary_card": "Government commission report recommending sharecroppers' share rise from one-half to two-thirds.",
+    "relationships": [
+      {
+        "type": "related_event",
+        "target": "ev_floud_commission"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Tebhaga Movement (1946-1947), IAS Site",
+        "type": "secondary",
+        "url": "https://www.iassite.com/tebhaga-movement-1946-1947-upsc/"
+      }
+    ],
+    "editor_note": "Locate and link a digitized or archival copy of the actual report before publishing -- currently only described secondhand.",
+    "date": "1940",
+    "source_class": "primary"
+  },
+  {
+    "id": "tx_naren_1911_letter",
+    "type": "text",
+    "title": "Narendranath Bhattacharji's 1911 letter of protest against police surveillance",
+    "summary_card": "A letter Naren had forwarded to police authorities via his Calcutta barrister, protesting the intrusive round-the-clock surveillance imposed on him after his release from the Howrah Conspiracy Case — describing officers questioning his neighbours, following him onto trains, and asking how an unemployed, closely-watched man was supposed to survive.",
+    "relationships": [
+      {
+        "type": "written_by",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "related_event",
+        "target": "ev_howrah_conspiracy_case"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Quoted in Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026, from Bengal Police Intelligence Branch weekly reports, 1911",
+        "type": "primary"
+      }
+    ],
+    "editor_note": "This is a primary document known only through its quotation in the secondary source above; no independent copy of the original letter has been located yet.",
+    "date": "1911-08",
+    "source_class": "primary"
+  },
+  {
+    "id": "tx_sen_agrarian_struggle_bengal",
     "type": "text",
     "title": "Agrarian Struggle in Bengal 1946-47",
-    "author": "Sunil Sen",
-    "source_class": "secondary",
     "summary_card": "Widely cited academic account of the Tebhaga movement, commonly treated as a foundational secondary source.",
     "relationships": [
-      { "type": "related_movement", "target": "mv_tebhaga" }
+      {
+        "type": "related_movement",
+        "target": "mv_tebhaga"
+      }
     ],
     "sources": [],
-    "editor_note": "Publisher/edition details (commonly cited as People's Publishing House) not independently verified in this scaffold -- confirm before citing it as a source elsewhere on the site."
+    "editor_note": "Publisher/edition details (commonly cited as People's Publishing House) not independently verified in this scaffold -- confirm before citing it as a source elsewhere on the site.",
+    "source_class": "secondary"
+  },
+  {
+    "id": "tx_war_migration_alienation",
+    "type": "text",
+    "title": "War, Migration and Alienation in Colonial Calcutta: The Remaking of Muzaffar Ahmad",
+    "summary_card": "Chattopadhyay's peer-reviewed study of how the First World War years reshaped Muzaffar Ahmad's political consciousness, tracing his path from Bengali Muslim literary circles toward Marxism and the founding of Calcutta's first socialist nucleus.",
+    "relationships": [
+      {
+        "type": "about",
+        "target": "pe_muzaffar_ahmad"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta: The Remaking of Muzaffar Ahmad', History Workshop Journal, No. 64 (Autumn 2007), pp. 212-239, Oxford University Press",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      }
+    ],
+    "date": "2007",
+    "source_class": "secondary"
   }
 ]

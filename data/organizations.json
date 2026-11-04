@@ -1,29 +1,72 @@
 [
   {
-    "id": "org_cpi_undivided",
-    "type": "organization",
-    "name": "Communist Party of India (undivided)",
-    "founded": "1925",
-    "summary_card": "The undivided CPI, active in Bengal's agrarian organizing through its peasant front, the Kisan Sabha.",
-    "full_entry": "Refers here to the Communist Party of India prior to its 1964 split into the CPI and CPI(M) -- a separate entity to build later, linked back to this one with a 'split_from' relationship.",
-    "relationships": [
-      { "type": "parent_of", "target": "org_aiks" }
-    ],
-    "sources": [],
-    "editor_note": "Founding date and location (Tashkent 1920 vs Kanpur 1925) are described differently across sources -- resolve this with a dedicated, well-sourced entity before publishing rather than guessing here."
-  },
-  {
     "id": "org_aiks",
     "type": "organization",
     "name": "All India Kisan Sabha",
-    "founded": "1936",
     "summary_card": "The undivided CPI's national peasant front; the Bengal Provincial Kisan Sabha was its provincial wing.",
     "full_entry": "Founded in 1936 as the national peasant organization associated with the undivided Communist Party of India.",
     "relationships": [
-      { "type": "part_of", "target": "org_cpi_undivided" },
-      { "type": "parent_of", "target": "org_bpks" }
+      {
+        "type": "part_of",
+        "target": "org_cpi_undivided"
+      },
+      {
+        "type": "parent_of",
+        "target": "org_bpks"
+      }
     ],
-    "sources": []
+    "sources": [],
+    "founded": "1936"
+  },
+  {
+    "id": "org_anushilan_samiti",
+    "type": "organization",
+    "name": "Anushilan Samiti",
+    "summary_card": "An early Bengali revolutionary-nationalist secret society combining physical training and social work with armed anti-colonial action; Naren Bhattacharya's first political home before he became M. N. Roy.",
+    "full_entry": "Founded in Calcutta in 1902, Anushilan Samiti combined the training methods of nationalist volunteer associations with a growing commitment to armed resistance against colonial rule. Internal strategic differences led to the breakaway Jugantar current later in the decade. Both organisations drew heavily on Hindu revivalist imagery, which limited their appeal among Muslim youth otherwise attracted to the 'romance' of anti-colonial militancy.",
+    "relationships": [
+      {
+        "type": "split_into",
+        "target": "org_jugantar"
+      },
+      {
+        "type": "member",
+        "target": "pe_mn_roy"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "founded": "1902"
+  },
+  {
+    "id": "org_bengal_muslim_literary_society",
+    "type": "organization",
+    "name": "Bengal Muslim Literary Society (Bangiya Musalman Sahitya Samiti)",
+    "summary_card": "A Calcutta association promoting Bengali-language literature among Bengali Muslims, and the social and cultural base from which Muzaffar Ahmad moved toward labour journalism and communism.",
+    "full_entry": "Formed by students in 1911, the Society gave the small Calcutta Muslim intelligentsia a cultural home distinct from Urdu-dominated literary circles, while remaining open to Hindu contributors and affiliated with the wider Bengali literary federation. Muzaffar Ahmad joined in 1913, became a full-time activist and assistant editor of its journal, and met several future socialist collaborators, including Abdur Rezzaq Khan and Abdul Halim, through its reading room.",
+    "relationships": [
+      {
+        "type": "member",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "member",
+        "target": "pe_kazi_nazrul_islam"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta', History Workshop Journal, 2007",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      }
+    ],
+    "founded": "1911"
   },
   {
     "id": "org_bpks",
@@ -32,11 +75,148 @@
     "summary_card": "The Bengal wing of the Kisan Sabha that organized and led the Tebhaga movement.",
     "full_entry": "The Bengal provincial wing of the All India Kisan Sabha. Passed the September 1946 resolution that launched the Tebhaga movement.",
     "relationships": [
-      { "type": "part_of", "target": "org_aiks" },
-      { "type": "organized", "target": "mv_tebhaga" }
+      {
+        "type": "part_of",
+        "target": "org_aiks"
+      },
+      {
+        "type": "organized",
+        "target": "mv_tebhaga"
+      }
     ],
     "sources": [
-      { "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute", "type": "secondary", "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/" }
+      {
+        "citation": "The Tebhaga Movement: A Revolutionary Peasant Uprising in Bengal, PolSci Institute",
+        "type": "secondary",
+        "url": "https://polsci.institute/india-democracy-development/tebhaga-movement-peasant-uprising-bengal/"
+      }
     ]
+  },
+  {
+    "id": "org_calcutta_socialist_nucleus",
+    "type": "organization",
+    "name": "Calcutta's first socialist nucleus",
+    "summary_card": "The small communist organising group Muzaffar Ahmad built in Calcutta from 1922, in correspondence with M. N. Roy's émigré party — the direct forerunner of the CPI's Bengal unit.",
+    "relationships": [
+      {
+        "type": "founded_by",
+        "target": "pe_muzaffar_ahmad"
+      },
+      {
+        "type": "member",
+        "target": "pe_abdul_halim"
+      },
+      {
+        "type": "member",
+        "target": "pe_abdur_rezzaq_khan"
+      },
+      {
+        "type": "connected_to",
+        "target": "org_cpi_emigre_tashkent"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'War, Migration and Alienation in Colonial Calcutta', History Workshop Journal, 2007",
+        "type": "secondary",
+        "url": "https://www.jstor.org/stable/25472941"
+      }
+    ],
+    "founded": "1922"
+  },
+  {
+    "id": "org_cpi_emigre_tashkent",
+    "type": "organization",
+    "name": "Communist Party of India (émigré, Tashkent)",
+    "summary_card": "Founded by M. N. Roy and others in Tashkent in 1920, this émigré party predates and fed into the domestic communist nuclei that formed in Bombay, Calcutta, Madras, and elsewhere across the early 1920s.",
+    "full_entry": "Formed by M. N. Roy alongside former pan-Islamist Muhajir migrants who had reached Soviet Central Asia after the Russian Civil War, the émigré party operated from outside British India, corresponding with and sending representatives — including Nalini Gupta — to build contact with domestic organisers such as Muzaffar Ahmad in Calcutta from late 1921 onward.",
+    "relationships": [
+      {
+        "type": "founded_by",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "precedes",
+        "target": "org_cpi_undivided"
+      },
+      {
+        "type": "connected_to",
+        "target": "pe_muzaffar_ahmad"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "editor_note": "Relationship to the existing 'org_cpi_undivided' entry should be reviewed — this émigré party is a distinct forerunner, not simply an earlier name for the same organisation; the exact merger/unification timeline (commonly dated to the 1925 Kanpur unity conference) is worth adding as its own event.",
+    "founded": "1920"
+  },
+  {
+    "id": "org_cpi_undivided",
+    "type": "organization",
+    "name": "Communist Party of India (undivided)",
+    "summary_card": "The undivided CPI, active in Bengal's agrarian organizing through its peasant front, the Kisan Sabha.",
+    "full_entry": "Refers here to the Communist Party of India prior to its 1964 split into the CPI and CPI(M) -- a separate entity to build later, linked back to this one with a 'split_from' relationship.",
+    "relationships": [
+      {
+        "type": "parent_of",
+        "target": "org_aiks"
+      }
+    ],
+    "sources": [],
+    "editor_note": "Founding date and location (Tashkent 1920 vs Kanpur 1925) are described differently across sources -- resolve this with a dedicated, well-sourced entity before publishing rather than guessing here.",
+    "founded": "1925"
+  },
+  {
+    "id": "org_jugantar",
+    "type": "organization",
+    "name": "Jugantar",
+    "summary_card": "A revolutionary-nationalist current that broke from Anushilan Samiti over strategy, gaining a wider following through the 1910s; the network Naren Bhattacharya and Jatindranath Mukherjee organised within.",
+    "relationships": [
+      {
+        "type": "split_from",
+        "target": "org_anushilan_samiti"
+      },
+      {
+        "type": "member",
+        "target": "pe_mn_roy"
+      },
+      {
+        "type": "led_by",
+        "target": "pe_jatindranath_mukherjee"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Suchetana Chattopadhyay, 'Before he was 'M. N. Roy'', Derelict Destinations (Substack), 2026",
+        "type": "secondary",
+        "url": "https://derelictdestinations.substack.com/"
+      }
+    ],
+    "founded": "1906"
+  },
+  {
+    "id": "org_mars",
+    "type": "organization",
+    "name": "Mahila Atma Raksha Samiti (MARS)",
+    "summary_card": "Bengal women's self-defence organisation whose members took an active, sometimes armed, role in Tebhaga sharecropper mobilisation alongside the Kisan Sabha.",
+    "full_entry": "MARS grew out of anti-famine and anti-fascist women's organising in Bengal in the early 1940s and became closely linked with Communist Party and Kisan Sabha networks. During the Tebhaga movement, MARS cadres organised women bargadar households, took part in crop-guarding actions, and in some accounts participated directly in resisting police and landlord agents alongside male Kisan Sabha members.",
+    "relationships": [
+      {
+        "type": "related_movement",
+        "target": "mv_tebhaga"
+      }
+    ],
+    "sources": [
+      {
+        "citation": "Multiple secondary accounts of the Tebhaga movement note organised women's participation, sometimes attributed to MARS",
+        "type": "secondary"
+      }
+    ],
+    "editor_note": "General claim of women's organised participation is well corroborated across sources; MARS's specific institutional role in Tebhaga (as opposed to women's participation more broadly) should be checked against a dedicated MARS history before publishing.",
+    "founded": "1942"
   }
 ]
